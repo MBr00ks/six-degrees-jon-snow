@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>6&deg; of Snow</title>
+	<style>
+		body {
+background: #686868;
+background: -moz-linear-gradient(-45deg,  rgba(51,51,51,1) 0%, rgba(51,51,51,1) 23%, rgba(85,85,85,1) 25%, rgba(51,51,51,1) 27%, rgba(51,51,51,1) 50%, rgba(51,51,51,1) 73%, rgba(85,85,85,1) 75%, rgba(51,51,51,1) 77%, rgba(51,51,51,1) 100%);
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(51,51,51,1)), color-stop(23%,rgba(51,51,51,1)), color-stop(25%,rgba(85,85,85,1)), color-stop(27%,rgba(51,51,51,1)), color-stop(50%,rgba(51,51,51,1)), color-stop(73%,rgba(51,51,51,1)), color-stop(75%,rgba(85,85,85,1)), color-stop(77%,rgba(51,51,51,1)), color-stop(100%,rgba(51,51,51,1)));
+background: -webkit-linear-gradient(-45deg,  rgba(51,51,51,1) 0%,rgba(51,51,51,1) 23%,rgba(85,85,85,1) 25%,rgba(51,51,51,1) 27%,rgba(51,51,51,1) 50%,rgba(51,51,51,1) 73%,rgba(85,85,85,1) 75%,rgba(51,51,51,1) 77%,rgba(51,51,51,1) 100%);
+background: -o-linear-gradient(-45deg,  rgba(51,51,51,1) 0%,rgba(51,51,51,1) 23%,rgba(85,85,85,1) 25%,rgba(51,51,51,1) 27%,rgba(51,51,51,1) 50%,rgba(51,51,51,1) 73%,rgba(85,85,85,1) 75%,rgba(51,51,51,1) 77%,rgba(51,51,51,1) 100%);
+background: -ms-linear-gradient(-45deg,  rgba(51,51,51,1) 0%,rgba(51,51,51,1) 23%,rgba(85,85,85,1) 25%,rgba(51,51,51,1) 27%,rgba(51,51,51,1) 50%,rgba(51,51,51,1) 73%,rgba(85,85,85,1) 75%,rgba(51,51,51,1) 77%,rgba(51,51,51,1) 100%);
+background: linear-gradient(135deg,  rgba(51,51,51,1) 0%,rgba(51,51,51,1) 23%,rgba(85,85,85,1) 25%,rgba(51,51,51,1) 27%,rgba(51,51,51,1) 50%,rgba(51,51,51,1) 73%,rgba(85,85,85,1) 75%,rgba(51,51,51,1) 77%,rgba(51,51,51,1) 100%);
+background-size: 10px 10px;
+color: #d7d7d7; font-family: verdana;}
+		#top-list {padding: 0px;}
+		#top-list > li {display: block; padding: 20px; border: 1px double #d7d7d7; width: 80%; margin: 20px auto 0px;}
+		ul > li > ul { display: none;}
+		a {color: #d7d7d7;}
+		#dt:checked + .dt-deg { display: block; }
+		#tl:active + .tl-deg {display: block; }
+		.charSelect+label+p{
+			display:none;
+		}
+		.charSelect:checked+label+p{
+			display:block;
+		}
+	</style>
+  </head>
+  <body>
+	<center>
+	<img src="stark.gif" alt="White Direwolf">
+	<h1>6&deg; of Snow</h1>
+	<h2>A simple guide that traces GoT characters back to John Snow through family, marriage or fielty in 6&deg; of separation or less</h2>
+	</center>
+	<ul id="top-list">
+		<li>
+			<input type="radio" name="charSelect" class="charSelect" id="hound"/><label for="hound">The Hound</label>
+			<p>Once sworn to Joffrey > Nephew to Tyrion Lannister > Married to Sansa Stark > Cousin of Jon Snow</p>
+		</li>
+		<li>
+			<input type="radio" name="charSelect" class="charSelect" id="margarey"/><label for="margarey">Margarey Terell</label>
+			<p>Married Tommen Lannister > Nephew to Tyrion Lannister > Married to Sansa Stark > Cousin of Jon Snow</p>
+		</li>
+		
+		<li>
+			<input type="radio" name="charSelect" class="charSelect" id="lilFingy"/><label for="lilFingy">Little Finger</label>
+			<p>Married Lysa Arryn > Sister of Catelyn Stark > Aunt of Jon Snow</p>
+		</li>
+		<li>
+			<input type="radio" name="charSelect" class="charSelect" id="joffery"/><label for="joffery">Joffery Bratheon</label>
+			<p>Nephew to Tyrion Lannister > Married to Sansa Stark > Cousin of Jon Snow</p>
+		</li>
+		<li>
+			<input type="radio" name="charSelect" class="charSelect" id="varys"/><label for="varys">Varys</label>
+			<p>Sworn to Daenerys Stormborne > Sister to Rhaegar > Father of Jon Snow</p>
+		</li>
+		<li>
+			<input type="radio" name="charSelect" class="charSelect" id="gworm"/><label for="gworm">Grey Worm</label>
+			<p>Sworn to Daenerys Stormborne > Sister to Rhaegar > Father of Jon Snow</p>
+		</li>
+		<li>
+			<input type="radio" name="charSelect" class="charSelect" id="yara"/><label for="yara">Yara Greyjoy</label>
+			<p>Sister of Theon Greyjoy > Ward of Ned Stark > Uncle of Jon Snow</p>
+		</li>
+		<li>
+			<input type="radio" name="charSelect" class="charSelect" id="theon"/><label for="theon">Theon Greyjoy</label>
+			<p>Ward of Ned Stark > Uncle of Jon Snow</p>
+		</li>
+		<li>
+			<input type="radio" name="charSelect" class="charSelect" id="berrick"/><label for="berrick">Berrick Dondarian</label>
+			<p>Sworn to Ned Stark > Uncle of Jon Snow</p>
+		</li>
+		<li>
+			<input type="radio" name="charSelect" class="charSelect" id="tarth"/><label for="tarth">Brien of Tarth</label>
+			<p>Sworn to Catelyn Stark > Aunt of Jon Snow</p>
+		</li>
+		<li>
+			<input type="radio" name="charSelect" class="charSelect" id="tyrion"/><label for="tyrion">Tyrion Lannister</label>
+			<p>Married to Sansa Stark > Cousin of Jon Snow</p>
+		</li>
+		<li>
+			<input type="radio" name="charSelect" class="charSelect" id="sansa"/><label for="sansa">Sansa Stark</label>
+			<p>Sister of John Snow</p>
+			</ul>
+		</li>
+
+		
+	</ul>	
+  </body>
+</html>
