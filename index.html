@@ -1,84 +1,273 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>6&deg; of Jon Snow</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="pretty.css">
+    <title>6&deg; of Snow</title>
+	<style>
+	* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	background-color: #000;
+	color: rgba(215, 215, 215, .6); 
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+	font-size: 22px;
+}
+span {display: block;}
+h1 { text-align: center; font-family: Georgia; color: rgba(215, 215, 215, 1); margin: 30px auto 0px; display: inline-block; margin-bottom: 0px; font-weight: normal; display: block; width: 80%;}
+.big { margin-left: 30px; font-size: 3.2em; font-family: georgia; font-weight: bold; line-height: .8em;}
+.deg { font-weight: normal; font-size: .6em;}
+.small { font-size: .8em; position: relative; display: inline-block; }
+.small:before,
+.small:after {
+  content: "";
+  position: absolute;
+  margin-top: 15px;
+  height: 5px;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  top: 0;
+  width: 100px;
+}
+.small:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.small:after {
+  left: 100%;
+  margin-left: 15px;
+}
+.mid {
+	font-size: 1.35em;
+}
+h2 { font-weight: normal; font-size: .7em; line-height: 1.8em; text-align: center;}
+		
+		.frame {width: 80%; margin: 0px auto; padding-top: 10px; 
+			}
+		#top-list {padding: 0px; text-align: center; list-style-type: none;}
+		#top-list > li {
+			display: inline-block; 
+			width: 12%;
+			height: 80px;
+			background: rgba(215, 215, 215, .15); 
+			text-align: left;
+			text-indent: none;
+			
+			font-size: .6em;
+			font-weight: normal;
+			margin-bottom: 5px;
+			
+		}
+		
+		input[type="radio"] { background: none; visibility: hidden; margin-left: -10px;} 
+		input[type="radio"]+label {display: block; cursor: pointer; height: 85%; width: 100%; text-align: center; padding-top: 10px;}
+		.charSelect {
+			display: block;
+			margin-top: -10px;
+			padding: 0px 10px 0px;
+		}
+		#top-list > li:hover { background-color: rgba(215, 215, 215, .35);  }
+		
+		.charSelect:checked+label { 
+			color: rgba(215, 215, 215, 1);
+			background: rgba(215, 215, 215, .35)
+		}
+
+		.charSelect+label+p{
+			opacity: 0;
+			width: 0px;
+			padding-top: 10px;
+			font-size: 1.2em;
+			transition: all .2s;
+			-webkit-transition: all .2s;
+			color: rgba(215, 215, 215, 1);
+			position: fixed;
+			bottom: 20vh;
+			left: 0;
+			right: 0;
+			padding: 20px;
+			background: rgba(255,255,255, .21);
+			text-align: center;
+			border-top: 6px double  rgba(215, 215, 215, .4);
+			border-bottom:6px double  rgba(215, 215, 215, .4);
+			margin: 0px auto;
+		}
+		.charSelect:checked+label+p{
+			opacity: 1;
+			width: 90%;
+			transition: all ease-in .4s;
+			-webkit-transition: all ease-in .4s;
+			text-align: center;
+		}
+		
+		.charSelect:checked+label+p > span br {
+			display: none;
+		}
+		.wolf { display: inline-block;}
+		.wolf:before { 
+			display: inline-block;
+			content:'';
+			background: url(stark.svg);
+			background-size: cover;
+			background-repeat: no-repeat;
+			margin: 0px 0px -10px -8px;
+			width: 60px;
+			height: 40px;
+		}
+		
+/*// PRETTY DESIGN //*/		
+body {
+	background-image: url(images/snow-forrest.jpg);
+	background-repeat: no-repeat;
+	background-size: auto 100vh;
+}
+.header {
+	background-image: url(images/title-portrait.png);
+	background-repeat: no-repeat;
+	background-size:auto 100%;
+	background-position: center center;
+}
+h1.header span {
+	visibility:hidden;
+}
+/*
+#top-list > li { 
+	
+		display: inline-block;
+			width: 130px;
+			padding-top: 130px;
+			background-image: url(images/jon-portrait-big.png);
+			background-repeat: no-repeat;
+			background-size: 100% auto;
+			background-position: top middle
+}
+*/
+		.charSelect:checked+label+p > span {
+			display: inline-block;
+			width: 130px;
+			position: relative;
+			padding-top: 130px;
+			
+			top: 80px;
+			background-image: url(images/jon-portrait-big.png);
+			background-repeat: no-repeat;
+			background-size: 100% auto;
+			background-position: top middle
+		}
+		.charSelect:checked+label+p > span br {
+			display: block!important;
+		}
+		
+		.charSelect+label+p {
+			padding: 20px;
+			background: none;
+			text-align: center;
+			border-top: none;
+			border-bottom: none;
+			margin: 0px auto;
+		}
+		
+		
+#snow{
+	background: none;
+	background-image: url('images/snow-1.png'), url('images/snow-2.png'), url('images/snow-3.png');
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index:1;
+	-webkit-animation: snow 40s linear infinite;
+	-moz-animation: snow 40s linear infinite;
+	-ms-animation: snow 40s linear infinite;
+	animation: snow 40s linear infinite;
+}
+@-webkit-keyframes snow {
+    0% { background-position: 0px 0px, 0px 0px, 0px 0px }
+    100% { background-position: 500px 1000px, 400px 400px, 300px 300px; }
+}
+@-moz-keyframes snow {
+    0% { background-position: 0px 0px, 0px 0px, 0px 0px }
+    100% { background-position: 500px 1000px, 400px 400px, 300px 300px; }
+}
+@-ms-keyframes snow {
+    0% { background-position: 0px 0px, 0px 0px, 0px 0px }
+     100% { background-position: 500px 1000px, 400px 400px, 300px 300px; }
+}
+@keyframes snow {
+    0% { background-position: 0px 0px, 0px 0px, 0px 0px }
+    100% { background-position: 500px 1000px, 400px 400px, 300px 300px; }
+		
+	</style>
   </head>
   <body>
-  <div id="filter">
-  <div id="snow">	
-	<header>
-		<div id="splash">
-			<h1 class="title"><img src="title-portrait.png" alt="Six Degrees of Jon Snow"></h1>
-			<a href="#instructions" id="begin">Begin</a>
-		</div>
+  <div id="snow" class="filter">	
+	
+	<h1 class="header">
+		<span class="big">SIX<sup class="deg">&deg;</sup></span>
+		<br><span class="small">OF</span>
+		<br><span class="mid">Jon Snow</span>
+	</h1>
+	
+	<div class="frame">
 		<h2>A simple guide that traces GoT characters back to John Snow through family, marriage or fielty in 6&deg; of separation or less.</h2>
 	
-	</header>
-	
-	<section id="characters">
-	<div class="frame repeating-list">
-		<p id="instructions">Click on a character to see how they are connected to Jon Snow.</p>
-		<div id="character-list">
-			<ul>
-				<li>
-					<input type="radio" name="charSelect" class="charSelect" id="hound"/><label for="hound">The<br>Hound</label>
-					<p>Once sworn to Joffrey<br>Baratheon > Nephew to Tyrion<br>Lannister > Married to Sansa<br>Stark > Cousin of Jon<br>Snow</p>
-				</li>
-				<li>
-					<input type="radio" name="charSelect" class="charSelect" id="margarey"/><label for="margarey">Margarey<br>Terell</label>
-					<p><em>Married to </em><span class="tommen">Tommen<br>Lannister</span><em> Nephew to </em><span class="tyrion">Tyrion<br>Lannister</span><em> Married to </em><span class="sansa">Sansa<br>Stark</span><em> Cousin of </em><span class="snow">Jon<br>Snow</span></p>
-				</li>
-				
-				<li>
-					<input type="radio" name="charSelect" class="charSelect" id="lilFingy"/><label for="lilFingy">Little<br>Finger</label>
-					<p>Married Lysa<br>Arryn > Sister of Catelyn<br>Stark > Aunt of Jon<br>Snow</p>
-				</li>
-				<li>
-					<input type="radio" name="charSelect" class="charSelect" id="joffery"/><label for="joffery">Joffery Bratheon</label>
-					<p>Nephew to Tyrion<br>Lannister > Married to Sansa<br>Stark > Cousin of Jon<br>Snow</p>
-				</li>
-				<li>
-					<input type="radio" name="charSelect" class="charSelect" id="varys"/><label for="varys">Lord<br>Varys</label>
-					<p>Sworn to Daenerys<br>Stormborne > Sister to Rhaegar<br>Targeryn > Father of Jon<br>Snow</p>
-				</li>
-				<li>
-					<input type="radio" name="charSelect" class="charSelect" id="gworm"/><label for="gworm">Grey<br>Worm</label>
-					<p>Sworn to Daenerys<br>Stormborne > Sister to Rhaegar > Father of Jon<br>Snow</p>
-				</li>
-				<li>
-					<input type="radio" name="charSelect" class="charSelect" id="yara"/><label for="yara">Yara<br>Greyjoy</label>
-					<p>Sister of Theon Greyjoy > Ward of Ned Stark > Uncle of Jon Snow</p>
-				</li>
-				<li>
-					<input type="radio" name="charSelect" class="charSelect" id="theon"/><label for="theon">Theon<br>Greyjoy</label>
-					<p>Ward of Ned Stark > Uncle of Jon Snow</p>
-				</li>
-				<li>
-					<input type="radio" name="charSelect" class="charSelect" id="berrick"/><label for="berrick">Berrick<br>Dondarian</label>
-					<p>Sworn to Ned Stark > Uncle of Jon Snow</p>
-				</li>
-				<li>
-					<input type="radio" name="charSelect" class="charSelect" id="tarth"/><label for="tarth">Brien of<br>Tarth</label>
-					<p>Sworn to Catelyn Stark > Aunt of Jon Snow</p>
-				</li>
-				<li>
-					<input type="radio" name="charSelect" class="charSelect" id="tyrion"/><label for="tyrion">Tyrion<br>Lannister</label>
-					<p>Married to Sansa Stark > Cousin of Jon Snow</p>
-				</li>
-				<li>
-					<input type="radio" name="charSelect" class="charSelect" id="sansa"/><label for="sansa">Sansa<br>Stark</label>
-					<p>Sister of John Snow</p>
-					</ul>
-				</li>
-			</ul>	
-		</div>
+		<ul id="top-list">
+			<li>
+				<input type="radio" name="charSelect" class="charSelect" id="hound"/><label for="hound">The Hound</label>
+				<p>Once sworn to Joffrey > Nephew to Tyrion Lannister > Married to Sansa <br>Stark > Cousin of Jon <br>Snow</p>
+			</li>
+			<li>
+				<input type="radio" name="charSelect" class="charSelect" id="margarey"/><label for="margarey">Margarey Terell</label>
+				<p>Married to <span class="tommen">Tommen Lannister</span> Nephew to <span class="tyrion">Tyrion <br>Lannister</span> Married to <span class="sansa">Sansa <br>Stark</span> Cousin of <span class="snow">Jon <br>Snow</span></p>
+			</li>
+			
+			<li>
+				<input type="radio" name="charSelect" class="charSelect" id="lilFingy"/><label for="lilFingy">Little Finger</label>
+				<p>Married Lysa Arryn > Sister of Catelyn Stark > Aunt of Jon Snow</p>
+			</li>
+			<li>
+				<input type="radio" name="charSelect" class="charSelect" id="joffery"/><label for="joffery">Joffery Bratheon</label>
+				<p>Nephew to Tyrion Lannister > Married to Sansa Stark > Cousin of Jon Snow</p>
+			</li>
+			<li>
+				<input type="radio" name="charSelect" class="charSelect" id="varys"/><label for="varys">Varys</label>
+				<p>Sworn to Daenerys Stormborne > Sister to Rhaegar > Father of Jon Snow</p>
+			</li>
+			<li>
+				<input type="radio" name="charSelect" class="charSelect" id="gworm"/><label for="gworm">Grey Worm</label>
+				<p>Sworn to Daenerys Stormborne > Sister to Rhaegar > Father of Jon Snow</p>
+			</li>
+			<li>
+				<input type="radio" name="charSelect" class="charSelect" id="yara"/><label for="yara">Yara Greyjoy</label>
+				<p>Sister of Theon Greyjoy > Ward of Ned Stark > Uncle of Jon Snow</p>
+			</li>
+			<li>
+				<input type="radio" name="charSelect" class="charSelect" id="theon"/><label for="theon">Theon Greyjoy</label>
+				<p>Ward of Ned Stark > Uncle of Jon Snow</p>
+			</li>
+			<li>
+				<input type="radio" name="charSelect" class="charSelect" id="berrick"/><label for="berrick">Berrick Dondarian</label>
+				<p>Sworn to Ned Stark > Uncle of Jon Snow</p>
+			</li>
+			<li>
+				<input type="radio" name="charSelect" class="charSelect" id="tarth"/><label for="tarth">Brien of Tarth</label>
+				<p>Sworn to Catelyn Stark > Aunt of Jon Snow</p>
+			</li>
+			<li>
+				<input type="radio" name="charSelect" class="charSelect" id="tyrion"/><label for="tyrion">Tyrion Lannister</label>
+				<p>Married to Sansa Stark > Cousin of Jon Snow</p>
+			</li>
+			<li>
+				<input type="radio" name="charSelect" class="charSelect" id="sansa"/><label for="sansa">Sansa Stark</label>
+				<p>Sister of John Snow</p>
+				</ul>
+			</li>
+		</ul>	
+	</frame>
 	</div>
-	</section>
-	</div>
-</div>
-</body>
+	</body>
 </html>

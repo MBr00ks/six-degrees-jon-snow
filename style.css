@@ -113,7 +113,7 @@ a#begin:hover {
 	display: inline-block;
 }
 #characters {
-	/*min-height: 200vh;*/
+	min-height: 200vh;
 	padding-top: 5%;
 }
 #instructions {
@@ -122,8 +122,8 @@ a#begin:hover {
 
 
 
-		#character-list ul {padding: 0px; text-align: center; list-style-type: none;}
-		#character-list ul > li {
+		#top-list {padding: 0px; text-align: center; list-style-type: none;}
+		#top-list > li {
 			position:relative;
 			display: inline-block; 
 			width: 12%;
@@ -153,7 +153,7 @@ a#begin:hover {
 			margin-top: -10px;
 			padding: 0px 10px 0px;
 		}
-		#character-list ul > li:hover { background-color: rgba(215, 215, 215, .35);  }
+		#top-list > li:hover { background-color: rgba(215, 215, 215, .35);  }
 		
 		.charSelect:checked+label { 
 			background: rgba(215, 215, 215, .35)
@@ -178,7 +178,6 @@ a#begin:hover {
 			border-top: 6px double  rgba(215, 215, 215, .4);
 			border-bottom:6px double  rgba(215, 215, 215, .4);
 			margin: 0px auto;
-			display:none;
 		}
 		.charSelect:checked+label+p{
 			opacity: 1;
@@ -186,8 +185,6 @@ a#begin:hover {
 			transition: all ease-in .4s;
 			-webkit-transition: all ease-in .4s;
 			text-align: center;
-			display:block;
-			z-index:50;
 		}
 		
 		.charSelect:checked+label+p > span br {

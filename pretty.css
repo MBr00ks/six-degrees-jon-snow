@@ -1,6 +1,6 @@
 /*// PRETTY DESIGN //*/		
 body {
-	background-image: url(snow-forrest.jpg);
+	background-image: url(images/snow-forrest.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-size: 100% 100vh;
@@ -13,12 +13,12 @@ header img {
 }
 
 
-#character-list ul > li { 
+#top-list > li { 
 	
 		display: inline-block;
 			width: 130px;
 			padding-top: 130px;
-			background-image: url(jon-portrait-big.png);
+			background-image: url(images/jon-portrait-big.png);
 			background-repeat: no-repeat;
 			background-size: 100% auto;
 			background-position: top middle
@@ -31,7 +31,7 @@ header img {
 			padding-top: 130px;
 			
 			top: 80px;
-			background-image: url(jon-portrait-big.png);
+			background-image: url(images/jon-portrait-big.png);
 			background-repeat: no-repeat;
 			background-size: 100% auto;
 			background-position: top middle
@@ -40,60 +40,13 @@ header img {
 			display: block!important;
 		}
 		
-		.charSelect+label+p {			
-			background: -moz-linear-gradient(top,  rgba(12,20,24,0) -1%, rgba(12,20,24,0.03) 0%, rgba(12,20,24,0.85) 30%, rgba(12,20,24,1) 100%); /* FF3.6-15 */
-			background: -webkit-linear-gradient(top,  rgba(12,20,24,0) -1%,rgba(12,20,24,0.03) 0%,rgba(12,20,24,0.85) 30%,rgba(12,20,24,1) 100%); /* Chrome10-25,Safari5.1-6 */
-			background: linear-gradient(to bottom,  rgba(12,20,24,0) -1%,rgba(12,20,24,0.03) 0%,rgba(12,20,24,0.85) 30%,rgba(12,20,24,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#f2000000',GradientType=0 ); /* IE6-9 */
-			
-			-webkit-animation-duration: 1s;
-			animation-duration: 1s;
-			-webkit-animation-fill-mode: both;
-			animation-fill-mode: both;
-			padding: 0 1vw 150px;
+		.charSelect+label+p {
+			padding: 20px;
+			background: none;
 			text-align: center;
 			border-top: none;
 			border-bottom: none;
-			margin: 0;
-			width:98vw !important;
-			bottom:0;
-			max-height:50vh;
-			overflow-y:scroll;
-		}
-		.charSelect+label+p em{
-			white-space: nowrap;
-			color:#80929b;
-		}
-		@-webkit-keyframes fadeInBottom {
-		  from {
-			opacity: 0;
-			-webkit-transform: translate3d(0, 100%, 0);
-			transform: translate3d(0, 100%, 0);
-		  }
-		
-		  to {
-			opacity: 1;
-			-webkit-transform: none;
-			transform: none;
-		  }
-		}
-		
-		@keyframes fadeInBottom {
-		  from {
-			opacity: 0;
-			-webkit-transform: translate3d(0, 100%, 0);
-			transform: translate3d(0, 100%, 0);
-		  }
-		
-		  to {
-			opacity: 1;
-			-webkit-transform: none;
-			transform: none;
-		  }
-		}
-		.charSelect:checked+label+p{
-			-webkit-animation-name: fadeInBottom;
-  			animation-name: fadeInBottom;
+			margin: 0px auto;
 		}
 		
 #characters {
@@ -104,7 +57,7 @@ header img {
 	z-index: -1;
 }
 #snow{
-	background-image: url('snow-1.png'), url('snow-2.png'), url('snow-3.png');
+	background-image: url('images/snow-1.png'), url('images/snow-2.png'), url('images/snow-3.png');
 	height: 100%;
 	left: 0;
 	position: absolute;
@@ -131,4 +84,3 @@ header img {
 @keyframes snow {
     0% { background-position: 0px 0px, 0px 0px, 0px 0px }
     100% { background-position: 500px 1000px, 400px 400px, 300px 300px; }
-	
