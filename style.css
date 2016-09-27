@@ -1,0 +1,192 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*// THE STYLES //*/
+.frame {
+	width: 80%; 
+	margin: 0px auto; 
+	padding-top: 10px; 
+}
+
+
+body {
+	background-color: #fff;
+	color:#fff;
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+	font-size: 22px;
+	text-shadow: 2px 2px 45px rgba(12, 65, 90, 1); 
+}
+span {display: block;}
+h1 {margin-left: -50px; }
+h2 { 
+	width: 60%; 
+	margin: 0px auto;
+	font-weight: normal; 
+	font-size: 1em; 
+	line-height: 1.8em; 
+	text-align: center; 
+	color: #fff; 
+	text-shadow: 2px 2px 45px rgba(12, 65, 90, 1); 
+	}
+header {
+	display: inline-block;
+	height: 900px;
+	width: 100%;
+	padding-top: 10%;
+	text-align: center;
+}
+	
+	
+	
+	
+a#begin {
+	position: relative;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1.4em;
+	font-family: Georgia;
+	padding: 10px 50px;
+	background: rgba(1,14,24,.8);
+	color: #fff;
+	border-radius: 8px;
+	letter-spacing: 4px;
+	font-weight: bold;
+	display: block;
+	float: right;
+	margin: -80px 150px 0px 0px;
+	z-index: 5;
+	
+    -webkit-transition:  all 2s ease-in;
+    transition:  all 2s ease-in;
+}	
+a#begin:hover {
+	background:	 rgba(1,14,24,.65);
+	border: 1px solid #fff;
+}
+
+#splash {
+	display: inline-block;
+}
+#characters {
+	min-height: 200vh;
+	padding-top: 5%;
+}
+#instructions {
+	margin-bottom: 30px;	
+}
+
+
+
+		#top-list {padding: 0px; text-align: center; list-style-type: none;}
+		#top-list > li {
+			position:relative;
+			display: inline-block; 
+			width: 12%;
+			height: 80px;
+			text-align: left;
+			font-size: .9em;
+			font-weight: normal;
+			margin-bottom: 5px;
+			
+		}
+		
+		input[type="radio"] { background: none; visibility: hidden; margin-left: -10px;} 
+		input[type="radio"]+label {
+		    position: absolute;
+			top: 0;
+			display: block;
+			cursor: pointer;
+			height: auto;
+			width: 100%;
+			text-align: center;
+			padding-top: 140px;
+			color:#fff;
+	text-shadow: 2px 2px 45px rgba(12, 65, 90, 1); 
+		}
+		.charSelect {
+			display: block;
+			margin-top: -10px;
+			padding: 0px 10px 0px;
+		}
+		#top-list > li:hover { background-color: rgba(215, 215, 215, .35);  }
+		
+		.charSelect:checked+label { 
+			background: rgba(215, 215, 215, .35)
+		}
+
+		.charSelect+label+p{
+			color: #fff;
+			font-size: .8em;
+			opacity: 0;
+			width: 0px;
+			padding-top: 10px;
+			font-size: 1.2em;
+			transition: all .2s;
+			-webkit-transition: all .2s;
+			position: fixed;
+			bottom: 100px;
+			left: 0;
+			right: 0;
+			padding: 20px;
+			background: rgba(255,255,255, .21);
+			text-align: center;
+			border-top: 6px double  rgba(215, 215, 215, .4);
+			border-bottom:6px double  rgba(215, 215, 215, .4);
+			margin: 0px auto;
+		}
+		.charSelect:checked+label+p{
+			opacity: 1;
+			width: 90%;
+			transition: all ease-in .4s;
+			-webkit-transition: all ease-in .4s;
+			text-align: center;
+		}
+		
+		.charSelect:checked+label+p > span br {
+			display: none;
+		}
