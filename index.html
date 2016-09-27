@@ -80,63 +80,6 @@
 	</section>
 	</div>
 </div>
-<style>
-<!--#character-list ul{
-	border:thin solid red;
 
-}
-#character-list ul:nth-of-type(2n){
-	border-color:blue;
-
-}
-#character-list ul:nth-of-type(2n+3){
-	border-color:green;
-
-}-->
-</style>
-<script>
-
-
-window.onscroll = function() {
-	var charDiv = document.getElementById("character-list");
-	window.charDivChildren = document.getElementById("character-list").childNodes;
-	var firstCharList = charDiv.firstElementChild;
-	var firstCharBottom = firstCharList.offsetTop + firstCharList.clientHeight;
-	var charList = charDiv.lastElementChild;
-	var charListTop = charList.offsetTop;
-	var listElements = charDivChildren[1];
-	var firstListElement = firstCharList.firstElementChild;
-	var firstListElementTop = firstListElement.offsetTop;
-	
-	
-    var winHeight = window.innerHeight;
-	var winScrollTop = window.pageYOffset;
-	var winBottom = winHeight + winScrollTop;
-	var charListHeight = charList.clientHeight;
-	var charListBottom = charListTop + charListHeight;
-	
-	
-	if(winBottom >= charListBottom){ 
-		var newCharList = document.createElement("ul");
-		newCharList.innerHTML = charList.innerHTML;
-		charDiv.appendChild(newCharList);
-		
-	}
-	if(winScrollTop >= firstCharBottom){
-	console.log("Should be removing top list");
-		var firstList = charDiv.firstElementChild;
-		var firstListHeight = firstList.clientHeight;
-		console.log(firstListHeight);
-		charDiv.removeChild(firstList);
-		
-		var nextList = charDiv.firstElementChild;
-		nextList.style.paddingTop  = firstListHeight+"px";
-	}
-	if(winScrollTop <= firstListElementTop){
-		firstCharList.style.paddingTop = 0;
-	}
-	
-};
-</script>
 </body>
 </html>
