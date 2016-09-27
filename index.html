@@ -20,64 +20,123 @@
 	</header>
 	
 	<section id="characters">
-	<div class="frame">
-		<ul id="top-list">
+	<div class="frame repeating-list">
 		<p id="instructions">Click on a character to see how they are connected to Jon Snow.</p>
-
-			<li>
-				<input type="radio" name="charSelect" class="charSelect" id="hound"/><label for="hound">The<br>Hound</label>
-				<p>Once sworn to Joffrey<br>Baratheon > Nephew to Tyrion<br>Lannister > Married to Sansa<br>Stark > Cousin of Jon<br>Snow</p>
-			</li>
-			<li>
-				<input type="radio" name="charSelect" class="charSelect" id="margarey"/><label for="margarey">Margarey<br>Terell</label>
-				<p>Married to <span class="tommen">Tommen<br>Lannister</span> Nephew to <span class="tyrion">Tyrion<br>Lannister</span> Married to <span class="sansa">Sansa<br>Stark</span> Cousin of <span class="snow">Jon<br>Snow</span></p>
-			</li>
-			
-			<li>
-				<input type="radio" name="charSelect" class="charSelect" id="lilFingy"/><label for="lilFingy">Little<br>Finger</label>
-				<p>Married Lysa<br>Arryn > Sister of Catelyn<br>Stark > Aunt of Jon<br>Snow</p>
-			</li>
-			<li>
-				<input type="radio" name="charSelect" class="charSelect" id="joffery"/><label for="joffery">Joffery Bratheon</label>
-				<p>Nephew to Tyrion<br>Lannister > Married to Sansa<br>Stark > Cousin of Jon<br>Snow</p>
-			</li>
-			<li>
-				<input type="radio" name="charSelect" class="charSelect" id="varys"/><label for="varys">Lord<br>Varys</label>
-				<p>Sworn to Daenerys<br>Stormborne > Sister to Rhaegar<br>Targeryn > Father of Jon<br>Snow</p>
-			</li>
-			<li>
-				<input type="radio" name="charSelect" class="charSelect" id="gworm"/><label for="gworm">Grey<br>Worm</label>
-				<p>Sworn to Daenerys<br>Stormborne > Sister to Rhaegar > Father of Jon<br>Snow</p>
-			</li>
-			<li>
-				<input type="radio" name="charSelect" class="charSelect" id="yara"/><label for="yara">Yara<br>Greyjoy</label>
-				<p>Sister of Theon Greyjoy > Ward of Ned Stark > Uncle of Jon Snow</p>
-			</li>
-			<li>
-				<input type="radio" name="charSelect" class="charSelect" id="theon"/><label for="theon">Theon<br>Greyjoy</label>
-				<p>Ward of Ned Stark > Uncle of Jon Snow</p>
-			</li>
-			<li>
-				<input type="radio" name="charSelect" class="charSelect" id="berrick"/><label for="berrick">Berrick<br>Dondarian</label>
-				<p>Sworn to Ned Stark > Uncle of Jon Snow</p>
-			</li>
-			<li>
-				<input type="radio" name="charSelect" class="charSelect" id="tarth"/><label for="tarth">Brien of<br>Tarth</label>
-				<p>Sworn to Catelyn Stark > Aunt of Jon Snow</p>
-			</li>
-			<li>
-				<input type="radio" name="charSelect" class="charSelect" id="tyrion"/><label for="tyrion">Tyrion<br>Lannister</label>
-				<p>Married to Sansa Stark > Cousin of Jon Snow</p>
-			</li>
-			<li>
-				<input type="radio" name="charSelect" class="charSelect" id="sansa"/><label for="sansa">Sansa<br>Stark</label>
-				<p>Sister of John Snow</p>
-				</ul>
-			</li>
-		</ul>	
+		<div id="character-list">
+			<ul>
+				<li>
+					<input type="radio" name="charSelect" class="charSelect" id="hound"/><label for="hound">The<br>Hound</label>
+					<p>Once sworn to Joffrey<br>Baratheon > Nephew to Tyrion<br>Lannister > Married to Sansa<br>Stark > Cousin of Jon<br>Snow</p>
+				</li>
+				<li>
+					<input type="radio" name="charSelect" class="charSelect" id="margarey"/><label for="margarey">Margarey<br>Terell</label>
+					<p>Married to <span class="tommen">Tommen<br>Lannister</span> Nephew to <span class="tyrion">Tyrion<br>Lannister</span> Married to <span class="sansa">Sansa<br>Stark</span> Cousin of <span class="snow">Jon<br>Snow</span></p>
+				</li>
+				
+				<li>
+					<input type="radio" name="charSelect" class="charSelect" id="lilFingy"/><label for="lilFingy">Little<br>Finger</label>
+					<p>Married Lysa<br>Arryn > Sister of Catelyn<br>Stark > Aunt of Jon<br>Snow</p>
+				</li>
+				<li>
+					<input type="radio" name="charSelect" class="charSelect" id="joffery"/><label for="joffery">Joffery Bratheon</label>
+					<p>Nephew to Tyrion<br>Lannister > Married to Sansa<br>Stark > Cousin of Jon<br>Snow</p>
+				</li>
+				<li>
+					<input type="radio" name="charSelect" class="charSelect" id="varys"/><label for="varys">Lord<br>Varys</label>
+					<p>Sworn to Daenerys<br>Stormborne > Sister to Rhaegar<br>Targeryn > Father of Jon<br>Snow</p>
+				</li>
+				<li>
+					<input type="radio" name="charSelect" class="charSelect" id="gworm"/><label for="gworm">Grey<br>Worm</label>
+					<p>Sworn to Daenerys<br>Stormborne > Sister to Rhaegar > Father of Jon<br>Snow</p>
+				</li>
+				<li>
+					<input type="radio" name="charSelect" class="charSelect" id="yara"/><label for="yara">Yara<br>Greyjoy</label>
+					<p>Sister of Theon Greyjoy > Ward of Ned Stark > Uncle of Jon Snow</p>
+				</li>
+				<li>
+					<input type="radio" name="charSelect" class="charSelect" id="theon"/><label for="theon">Theon<br>Greyjoy</label>
+					<p>Ward of Ned Stark > Uncle of Jon Snow</p>
+				</li>
+				<li>
+					<input type="radio" name="charSelect" class="charSelect" id="berrick"/><label for="berrick">Berrick<br>Dondarian</label>
+					<p>Sworn to Ned Stark > Uncle of Jon Snow</p>
+				</li>
+				<li>
+					<input type="radio" name="charSelect" class="charSelect" id="tarth"/><label for="tarth">Brien of<br>Tarth</label>
+					<p>Sworn to Catelyn Stark > Aunt of Jon Snow</p>
+				</li>
+				<li>
+					<input type="radio" name="charSelect" class="charSelect" id="tyrion"/><label for="tyrion">Tyrion<br>Lannister</label>
+					<p>Married to Sansa Stark > Cousin of Jon Snow</p>
+				</li>
+				<li>
+					<input type="radio" name="charSelect" class="charSelect" id="sansa"/><label for="sansa">Sansa<br>Stark</label>
+					<p>Sister of John Snow</p>
+					</ul>
+				</li>
+			</ul>	
+		</div>
 	</div>
 	</section>
 	</div>
 </div>
+<style>
+<!--#character-list ul{
+	border:thin solid red;
+
+}
+#character-list ul:nth-of-type(2n){
+	border-color:blue;
+
+}
+#character-list ul:nth-of-type(2n+3){
+	border-color:green;
+
+}-->
+</style>
+<script>
+
+
+window.onscroll = function() {
+	var charDiv = document.getElementById("character-list");
+	window.charDivChildren = document.getElementById("character-list").childNodes;
+	var firstCharList = charDiv.firstElementChild;
+	var firstCharBottom = firstCharList.offsetTop + firstCharList.clientHeight;
+	var charList = charDiv.lastElementChild;
+	var charListTop = charList.offsetTop;
+	var listElements = charDivChildren[1];
+	var firstListElement = firstCharList.firstElementChild;
+	var firstListElementTop = firstListElement.offsetTop;
+	
+	
+    var winHeight = window.innerHeight;
+	var winScrollTop = window.pageYOffset;
+	var winBottom = winHeight + winScrollTop;
+	var charListHeight = charList.clientHeight;
+	var charListBottom = charListTop + charListHeight;
+	
+	
+	if(winBottom >= charListBottom){ 
+		var newCharList = document.createElement("ul");
+		newCharList.innerHTML = charList.innerHTML;
+		charDiv.appendChild(newCharList);
+		
+	}
+	if(winScrollTop >= firstCharBottom){
+	console.log("Should be removing top list");
+		var firstList = charDiv.firstElementChild;
+		var firstListHeight = firstList.clientHeight;
+		console.log(firstListHeight);
+		charDiv.removeChild(firstList);
+		
+		var nextList = charDiv.firstElementChild;
+		nextList.style.paddingTop  = firstListHeight+"px";
+	}
+	if(winScrollTop <= firstListElementTop){
+		firstCharList.style.paddingTop = 0;
+	}
+	
+};
+</script>
 </body>
 </html>
