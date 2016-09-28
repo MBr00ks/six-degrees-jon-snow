@@ -178,6 +178,7 @@ a#begin:hover {
 			border-top: 6px double  rgba(215, 215, 215, .4);
 			border-bottom:6px double  rgba(215, 215, 215, .4);
 			margin: 0px auto;
+			display:none;
 		}
 		.charSelect:checked+label+p{
 			opacity: 1;
@@ -185,6 +186,8 @@ a#begin:hover {
 			transition: all ease-in .4s;
 			-webkit-transition: all ease-in .4s;
 			text-align: center;
+			display:block;
+			z-index:50;
 		}
 		
 		.charSelect:checked+label+p > span br {
