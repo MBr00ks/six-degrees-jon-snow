@@ -31,204 +31,269 @@
 
 			<li>
 				<input type="radio" name="charSelect" class="charSelect" id="alliser"/><label for="alliser">Alliser<br>Thorne</label>
-				<p>Alliser Thorne Sworn brother of Jon Snow</p>
+				<p><span class="alliser">Alliser<br>Thorne</span> Sworn brother of <span class="jon">Jon<br>Snow</span></p>
 			</li>
 			<li>
 				<input type="radio" name="charSelect" class="charSelect" id="arya"/><label for="arya">Arta<br>Stark</label>
-				<p>Arya Stark Cousin of Jon Snow</p>
+				<p><span class="arya">Arya<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
 			</li>
 			
 			<li>
 				<input type="radio" name="charSelect" class="charSelect" id="baylon"/><label for="baylon">Baylon<br>Greyjoy</label>
-				<p>Baylon Greyjoy Father of Theon Greyjoy Ward of Ned Stark Uncle of Jon Snow</p>
+				<p><span class="baylon">Baylon<br>Greyjoy</span> Father of <span class="theon">Theon<br>Greyjoy</span> Ward of <span class="eddard">Eddard<br>Stark</span> Uncle of <span class="jon">Jon<br>Snow</span></p>
 			</li>
 			<li>
 				<input type="radio" name="charSelect" class="charSelect" id="benjen"/><label for="benjen">Benjen<br>Stark</label>
-				<p>Benjen Stark Uncle of Jon Snow</p>
+				<p><span class="benjen">Benjen<br>Stark</span> Uncle of <span class="jon">Jon<br>Snow</span></p>
 			</li>
 			<li>
 				<input type="radio" name="charSelect" class="charSelect" id="berric"/><label for="berric">Berric<br>Dondarion</label>
-				<p>Beric Dondarion Sworn to Ned Stark Uncle of Jon Snow</p>
+				<p><span class="beric">Beric<br>Dondarian</span> Sworn to <span class="eddard">Eddard<br>Stark</span> Uncle of <span class="jon">Jon<br>Snow</span></p>
 			</li>
 			<li>
 				<input type="radio" name="charSelect" class="charSelect" id="bran"/><label for="bran">Brandon<br>Stark</label>
-				<p>Bran Stark Cousin of Jon Snow</p>
+				<p><span class="bran">Bran<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
 			</li>
 			<li>
 				<input type="radio" name="charSelect" class="charSelect" id="tarth"/><label for="tarth">Brien of<br>Tarth</label>
-				<p>Sworn to Sansa Stark Cousin of Jon Snow</p>
+				<p><span class="brien">Brien of<br>Tarth</span> Sworn to <span class="sansa">Sansa<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
 			</li>
 			<li>
 				<input type="radio" name="charSelect" class="charSelect" id="bronn"/><label for="bronn">Bronn<br></label>
-				<p>Bronn Sworn to Tyrion Married to Sansa Cousin of Jon Snow</p>
+				<p><span class="bronn">Bronn</span> Sworn to <span class="tyrion">Tyrion<br>Lannister</span> Married to <span class="sansa">Sansa<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
 			</li>
             <li>
 				<input type="radio" name="charSelect" class="charSelect" id="brynden"/><label for="brynden">Brynden<br>Tully</label>
-				<p>Brynden Tully Uncle of Catelyn Stark Aunt of Jon Snow</p>
+				<p><span class="brynden">Brynden<br>Tully</span> Uncle of <span class="catelyn">Catelyn<br>Stark</span> Aunt of <span class="jon">Jon<br>Snow</span></p>
 			</li>
 			<li>
 				<input type="radio" name="charSelect" class="charSelect" id="catelyn"/><label for="catelyn">Catelyn<br>Stark</label>
-				<p>Catelyn Stark Aunt of Jon Snow</p>
+				<p><span class="catelyn">Catelyn<br>Stark</span> Aunt of <span class="jon">Jon<br>Snow</span></p>
 			</li>
 			<li>
 				<input type="radio" name="charSelect" class="charSelect" id="cersei"/><label for="cersei">Cersei<br>Baratheon</label>
-				<p>Cersei Bratheon Sister of Tyrion Married to Sansa Cousin of Jon Snow</p>
+				<p><span class="cersei">Cersei<br>Lannister</span> Sister of <span class="tyrion">Tyrion<br>Lannister</span> Married to <span class="sansa">Sansa<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
 			</li>
 			<li>
 				<input type="radio" name="charSelect" class="charSelect" id="daario"/><label for="daario">Daario<br>Naharis</label>
-				<p>Daario Nahris Sworn to Daenerys Targaryen  Aunt of Jon Snow</p>
+				<p><span class="dario">Dario<br>Nahris</span> Sworn to <span class="daenerys">Daenerys<br>Targaryen</span>  Aunt of <span class="jon">Jon<br>Snow</span></p>
 			</li>
             <li>
 				<input type="radio" name="charSelect" class="charSelect" id="danny"/><label for="danny">Daenerys<br>Targaryen</label>
-				<p>Daenerys Targaryen Aunt of Jon Snow</p>
+				<p><span class="daenerys">Daenerys<br>Targaryen</span> Aunt of <span class="jon">Jon<br>Snow</span></p>
 			</li>
             <li>
 				<input type="radio" name="charSelect" class="charSelect" id="davos"/><label for="davos">Davos<br>Seaworth</label>
-				<p>Daario Nahris Sworn to Daenerys Targaryen  Aunt of Jon Snow</p>
-			</li>
-            <li>
-				<input type="radio" name="charSelect" class="charSelect" id="daario"/><label for="daario">Daario<br>Naharis</label>
-				<p>Davos Seaworth Sworn to Jon Snow</p>
+				<p><span class="davos">Davos<br>Seaworth</span> Sworn to <span class="jon">Jon<br>Snow</span></p>
 			</li>
             <li>
 				<input type="radio" name="charSelect" class="charSelect" id="daario"/><label for="daario">Doran<br>Martell</label>
-				<p>Doran Martell Brother in law to Rhaegar Targaryen Father of Jon Snow</p>
+				<p><span class="doran">Doran<br>Martell</span> Brother in law to <span class="rhaegar">Rhaegar<br>Targaryen</span> Father of <span class="jon">Jon<br>Snow</span></p>
 			</li>
             <li>
 				<input type="radio" name="charSelect" class="charSelect" id="eddard"/><label for="eddard">Eddard<br>Stark</label>
-				<p>Eddard Stark Uncle of Jon Snow</p>
+				<p><span class="eddard">Eddard<br>Stark</span> Uncle of <span class="jon">Jon<br>Snow</span></p>
 			</li>
             <li>
 				<input type="radio" name="charSelect" class="charSelect" id="edmure"/><label for="edmure">Edmure<br>Tully</label>
-				<p>Edmure Tully Brother to Catelyn Stark Aunt of Jon Snow</p>
+				<p><span class="edmure">Edmure<br>Tully</span> Brother to <span class="catelyn">Catelyn<br>Stark</span> Aunt of <span class="jon">Jon<br>Snow</span></p>
 			</li>
              <li>
 				<input type="radio" name="charSelect" class="charSelect" id="euron"/><label for="euron">Euron<br>Greyjoy</label>
-				<p>Euron Greyjoy Uncle of Theon Greyjoy Ward of Eddard Stark Uncle of Jon Snow</p>
+				<p><span class="euron">Euron<br>Greyjoy</span> Uncle of <span class="theon">Theon<br>Greyjoy</span> Ward of <span class="eddard">Eddard<br>Stark</span> Uncle of <span class="jon">Jon<br>Snow</span></p>
 			</li>
              <li>
 				<input type="radio" name="charSelect" class="charSelect" id="edmure"/><label for="edmure">Gendry<br></label>
-				<p>Gendry  Son of Robert Baratheon Sworn brother of Eddard Stark Uncle of Jon Snow</p>
+				<p><span class="gendry">Gendry</span> Son of <span class="robertr">Robert<br>Baratheon</span> Sworn brother of <span class="eddard">Eddard<br>Stark</span> Uncle of <span class="jon">Jon<br>Snow</span></p>
 			</li>
              <li>
 				<input type="radio" name="charSelect" class="charSelect" id="mountain"/><label for="mountain">Gregor<br>Clegane</label>
-				<p>Gregor Clegane Sworn to Cersei Baratheon Sister of Tyrion Lannister Married to Sansa Stark Cousin of Jon Snow</p>
+				<p><span class="gregor">Gregor<br>Clegane</span> Sworn to <span class="cersei">Cersei<br>Lannister</span> Sister of <span class="tyrion">Tyrion<br>Lannister</span> Married to <span class="sansa">Sansa<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
 			</li>
              <li>
 				<input type="radio" name="charSelect" class="charSelect" id="worm"/><label for="worm">Grey<br>Worm</label>
-				<p>Grey Worm Sworn to Daeneryls Targaryn Aunt of Jon Snow</p>
+				<p><span class="worm">Grey<br>Worm</span> Sworn to <span class="daenerys">Daenerys<br>Targaryn</span> Aunt of <span class="jon">Jon<br>Snow</span></p>
 			</li>
              <li>
 				<input type="radio" name="charSelect" class="charSelect" id="hodor"/><label for="hodor">Hodor<br></label>
-				<p>Hodor Sworn to Eddard Stark Uncle of Jon Snow</p>
+				<p><span class="hodor">Hodor</span> Sworn to <span class="eddard">Eddard<br>Stark</span> Uncle of <span class="jon">Jon<br>Snow</span></p>
 			</li>
              <li>
 				<input type="radio" name="charSelect" class="charSelect" id="jamie"/><label for="jamie">Jamie<br>Lannister</label>
-				<p>Jaime Lannister Brother to Tyrion Lannister Married to Sansa Stark Cousin of Jon Snow</p>
+				<p><span class="jaime">Jaime<br>Lannister</span> Brother to <span class="tyrion">Tyrion<br>Lannister</span> Married to <span class="sansa">Sansa<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
 			</li>
              <li>
 				<input type="radio" name="charSelect" class="charSelect" id="jaqen"/><label for="jaqen">Jaqen<br>H'ghar</label>
-				<p>Jaqen H'ghar Mentor of Arya Stark Cousin of Jon Snow</p>
+				<p><span class="jaqen">Jaqen<br>H'ghar</span> Mentor of <span class="arya">Arya<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
 			</li>
             <li>
 				<input type="radio" name="charSelect" class="charSelect" id="jeor"/><label for="jeor">Jeor<br>Mormont</label>
-				<p>Jeor Mormont Ex-commander of Jon Snow</p>
+				<p><span class="jeor">Jeor<br>Mormont</span> <em>Ex-commander</em> of <span class="jon">Jon<br>Snow</span></p>
 			</li>
             <li>
 				<input type="radio" name="charSelect" class="charSelect" id="joffrey"/><label for="joffrey">Joffrey<br>Baratheon</label>
-				<p>Joffery Baratheon Nephew of Tyrion Lannister Married to Sansa Stark Cousin of Jon Snow</p>
+				<p><span class="joffery">Joffery<br>Baratheon</span> Nephew of <span class="tyrion">Tyrion<br>Lannister</span> Married to <span class="sansa">Sansa<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
 			</li>
             <li>
 				<input type="radio" name="charSelect" class="charSelect" id="jojen"/><label for="jojen">Jojen<br>Reed</label>
-				<p>JoJen Reed Son of Howlan Reed Sworn brother to Eddard Stark Uncle of Jon Snow</p>
+				<p><span class="jojen">JoJen<br>Reed</span> Son of Howlan Reed Sworn brother to <span class="eddard">Eddard<br>Stark</span> Uncle of <span class="jon">Jon<br>Snow</span></p>
 			</li>
             <li>
 				<input type="radio" name="charSelect" class="charSelect" id="kevan"/><label for="kevan">Kevan<br>Lannister</label>
-				<p>Keven Lannister Uncle of Tyrion Lannister Married to Sansa Stark Cousin of Jon Snow</p>
+				<p><span class="keven">Keven<br>Lannister</span> Uncle of <span class="tyrion">Tyrion<br>Lannister</span> Married to <span class="sansa">Sansa<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
 			</li>
             <li>
 				<input type="radio" name="charSelect" class="charSelect" id="drogo"/><label for="drogo">Khal<br>Drogo</label>
-				<p>Khal Drogo Married to (formerly) Daenerys Targaryn Aunt of Jon Snow</p>
+				<p><span class="drogo">Khal<br>Drogo</span> <em>Married to (formerly)</em> <span class="daenerys">Daenerys<br>Targaryn</span> Aunt of <span class="jon">Jon<br>Snow</span></p>
 			</li>
             <li>
 				<input type="radio" name="charSelect" class="charSelect" id="lancel"/><label for="lancel">Lancel<br>Lannister</label>
-				<p>Lancel Lannister Son of Keven Lannister Uncle of Tyrion Lannister Married to Sansa Stark Cousin of Jon Snow</p>
+				<p><span class="lancel">Lancel<br>Lannister</span> Son of <span class="keven">Keven<br>Lannister</span> Uncle of <span class="tyrion">Tyrion<br>Lannister</span> Married to <span class="sansa">Sansa<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
 			</li>
              <li>
 				<input type="radio" name="charSelect" class="charSelect" id="loras"/><label for="loras">Loras<br>Tyrell</label>
-				<p>Loras Tyrell Brother to Margerie Tyrell Married to Tommen Baratheon Nephew of Tyrion Lannister Married to Sansa Stark Cousin of Jon Snow</p>
+				<p><span class="loras">Loras<br>Tyrell</span> Brother to <span class="margerie">Margerie<br>Tyrell</span> Married to <span class="tommen">Tommen<br>Baratheon</span> Nephew of <span class="tyrion">Tyrion<br>Lannister</span> Married to <span class="sansa">Sansa<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
 			</li>
              <li>
 				<input type="radio" name="charSelect" class="charSelect" id="lysa"/><label for="lysa">Lysa<br>Arryn</label>
-				<p>Lysa Arryn Sister of Catelyn Stark Aunt of Jon Snow</p>
+				<p><span class="lysa">Lysa<br>Arryn</span> Sister of <span class="catelyn">Catelyn<br>Stark</span> Aunt of <span class="jon">Jon<br>Snow</span></p>
 			</li>
              <li>
 				<input type="radio" name="charSelect" class="charSelect" id="mace"/><label for="mace">Mace<br>Tyrell</label>
-				<p>Mace Tyrell Father of Margerie Tyrell Married to Tommen Baratheon Nephew of Tyrion Lannister Married to Sansa Stark Cousin of Jon Snow</p>
+				<p><span class="mace">Mace<br>Tyrell</span> Father of <span class="margerie">Margerie<br>Tyrell</span> Married to <span class="tommen">Tommen<br>Baratheon</span> Nephew of <span class="tyrion">Tyrion<br>Lannister</span> Married to <span class="sansa">Sansa<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
 			</li>
              <li>
 				<input type="radio" name="charSelect" class="charSelect" id="aemon"/><label for="aemon">Maester<br>Aemon</label>
-				<p>Maester Aemon Mentor of Jon Snow</p>
+				<p><span class="aemon">Maester<br>Aemon</span> Grandfather of <span class="jon">Jon<br>Snow</span></p>
 			</li>
             <li>
 				<input type="radio" name="charSelect" class="charSelect" id="mance"/><label for="mance">Mance<br>Rayder</label>
-				<p>Mance Rayder Ex-Commander of Jon Snow</p>
+				<p><span class="mance">Mance<br>Rayder</span> <em>Ex-Commander</em> of <span class="jon">Jon<br>Snow</span></p>
 			</li>
             <li>
 				<input type="radio" name="charSelect" class="charSelect" id="margery"/><label for="margery">Margaerie Tyrell</label>
-				<p>Margerie Tyrell Married to Tommen Baratheron Nephew of Tyrion Lanniester Married to Sansa Stark Cousin of Jon Snow</p>
+				<p><span class="margerie">Margerie<br>Tyrell</span> Married to Tommen Baratheron Nephew of Tyrion Lanniester Married to <span class="sansa">Sansa<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
 			</li>
             <li>
 				<input type="radio" name="charSelect" class="charSelect" id="meera"/><label for="meera">Meera<br>Reed</label>
-				<p>Meera Reed Daughter of Howlan Reed Sworn brother to Eddard Stark Uncle of Jon Snow</p>
+				<p><span class="meera">Meera<br>Reed</br> Daughter of Howlan Reed Sworn brother to <span class="eddard">Eddard<br>Stark</span> Uncle of <span class="jon">Jon<br>Snow</span></p>
 			</li>
             <li>
 				<input type="radio" name="charSelect" class="charSelect" id="melisandre"/><label for="melisandre">Melisandre<br></label>
-				<p>Melisandre Mother of Shadow-baby Newphew to Robert Baratheon  Married to Cersei Lannister Sister of Tyrion Lanister Married to Sansa Stark Cousin of Jon Snow</p>
+				<p><span class="melisandre">Melisandre</span> Mother of <span class="shadow">Shadow-baby</span> Newphew to <span class="robertr">Robert<br>Baratheon</span>  Married to <span class="cersei">Cersei<br>Lannister</span> Sister of Tyrion Lanister Married to <span class="sansa">Sansa<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
 			</li>
             <li>
 				<input type="radio" name="charSelect" class="charSelect" id="missandei"/><label for="missandei">Missandei<br></label>
-				<p>Missandei Sworn to Daenerys Targaryn Aunt of Jon Snow</p>
+				<p><span class="missandei">Missandei</span> Sworn to <span class="daenerys">Daenerys<br>Targaryn</span> Aunt of <span class="jon">Jon<br>Snow</span></p>
 			</li>
             <li>
 				<input type="radio" name="charSelect" class="charSelect" id="oberyn"/><label for="oberyn">Oberyn<br>Martell</label>
-				<p>Oberyn Tyrell Brother in law to Rhaegar Targaryn Father of Jon Snow</p>
+				<p><span class="oberyn">Oberyn<br>Tyrell</span> Brother in law to <span class="rhaegar">Rhaegar Targaryn</span> Father of <span class="jon">Jon<br>Snow</span></p>
 			</li>
             <li>
 				<input type="radio" name="charSelect" class="charSelect" id="olenna"/><label for="olenna">Olenna<br>Tyrell</label>
-				<p>Olenna Tyrell Grandmother of Margerie Tyrell Married to Tommen Bratheon Nephew of Tyrion Lannister Married to Sansa Stark Cousin of Jon Snow</p>
+				<p><span class="olenna">Olenna Tyrell</span> <em>Grandmother of</em> <span class="margerie">Margerie<br>Tyrell</span> Married to Tommen Bratheon Nephew of <span class="tyrion">Tyrion<br>Lannister</span> Married to <span class="sansa">Sansa<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
 			</li>
             <li>
 				<input type="radio" name="charSelect" class="charSelect" id="baelish"/><label for="baelish">Petyr<br>Baelish</label>
-				<p>Petyr Baelish Married to(formerly) Lysa Arryn Sister of Catelyn Stark Aunt of Jon Snow</p>
+				<p><span class="petyr">Petyr<br>Baelish</span> Married to(formerly) <span class="lysa">Lysa<br>Arryn</span> Sister of <span class="catelyn">Catelyn<br>Stark</span> Aunt of <span class="jon">Jon<br>Snow</span></p>
 			</li>
             <li>
 				<input type="radio" name="charSelect" class="charSelect" id="podrick"/><label for="podrick">Podrick<br>Payne</label>
-				<p>Podrick Payne Squire to Brienne of Tarth Sworn to Sansa Stark cousin of Jon Snow</p>
+				<p><span class="podrick">Podrick<br>Payne</span> Squire to <span class="briene">Briene of<br>Tarth</span> Sworn to <span class="sansa">Sansa<br>Stark</span> cousin of <span class="jon">Jon<br>Snow</span></p>
 			</li>
             <li>
 				<input type="radio" name="charSelect" class="charSelect" id="pycelle"/><label for="pycelle">Maester<br>Pycelle</label>
-				<p>Maester Pycelle Order of Maesters with Maester Aemon Mentor of Jon Snow</p>
+				<p><span class="maester">Maester<br>Pycelle</span> <em>Order of Maesters with</em> <span class="aemon">Maester<br>Aemon</span> Grandfather of <span class="jon">Jon<br>Snow</span></p>
 			</li>
              <li>
 				<input type="radio" name="charSelect" class="charSelect" id="qyburn"/><label for="qyburn">Qyburn</label>
-				<p>Qyburn Sworn to Cercei Lannister Sister or Tyrion Lannister Formerly married to Sansa Stark Cousin of Jon Snow  </p>
+				<p><span class="qyburn">Qyburn</span> Sworn to <span class="cersie">Cersei<br>Lannister</span> Sister or <span class="tyrion">Tyrion<br>Lannister</span> Formerly married to <span class="sansa">Sansa<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span>  </p>
 			</li>
              <li>
 				<input type="radio" name="charSelect" class="charSelect" id="ramsay"/><label for="ramsay">Ramsay<br>Bolton</label>
-				<p>Ramsay Bolton Married to Sansa Stark Cousin of Jon Snow</p>
+				<p><span class="ramsay">Ramsay<br>Bolton</span> Married to <span class="sansa">Sansa<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
 			</li>
              <li>
 				<input type="radio" name="charSelect" class="charSelect" id="renly"/><label for="renly">Renly<br>Baratheon</label>
-				<p>Renly Baratheon Married to(formerly) Margerie Tyrell Married to Tommen Baratheon Nephew of Tyrion Lannister Married to Sansa Stark Cousin of Jon Snow</p>
+				<p><span class="renly">Renly<br>Baratheon</span> Married to(formerly) <span class="margerie">Margerie<br>Tyrell</span> Married to <span class="tommen">Tommen<br>Baratheon</span> Nephew of <span class="tyrion">Tyrion<br>Lannister</span> Married to <span class="sansa">Sansa<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
 			</li>
              <li>
-				<input type="radio" name="charSelect" class="charSelect" id="podrick"/><label for="podrick">Podrick<br>Payne</label>
-				<p>Podrick Payne Squire to Brienne of Tarth Sworn to Sansa Stark cousin of Jon Snow</p>
+				<input type="radio" name="charSelect" class="charSelect" id="robb"/><label for="robb">Robb<br>Stark</label>
+				<p><span class="robb">Robb<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
 			</li>
-             <li>
-				<input type="radio" name="charSelect" class="charSelect" id="podrick"/><label for="podrick">Podrick<br>Payne</label>
-				<p>Podrick Payne Squire to Brienne of Tarth Sworn to Sansa Stark cousin of Jon Snow</p>
+     		<li>
+				<input type="radio" name="charSelect" class="charSelect" id="robert"/><label for="robert">Robert<br>Baratheon</label>
+				<p><span class="robertr">Robert<br>Baratheon</span> Married to <span class="cersei">Cersei<br>Lannister</span> Sister of <span class="tyrion">Tyrion<br>Lannister</span> Married to <span class="sansa">Sansa<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
+			</li>
+			<li>
+				<input type="radio" name="charSelect" class="charSelect" id="robin"/><label for="robin">Robin<br>Arryn</label>
+				<p><span class="robin">Robin<br>Arryn</span> Nephew of <span class="catelyn">Catelyn<br>Stark</span> Aunt of <span class="jon">Jon<br>Snow</span></p>
+			</li>
+			<li>
+				<input type="radio" name="charSelect" class="charSelect" id="roose"/><label for="roose">Roose<br>Bolton</label>
+				<p><span class="roose">Roose<br>Bolton</span> Father of Ramsay Bolton Married to <span class="sansa">Sansa<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
+			</li>
+			<li>
+				<input type="radio" name="charSelect" class="charSelect" id="samwell"/><label for="samwell">Samwell<br>Tarly</label>
+				<p><span class="samwell">Samwell<br>Tarley</span> Sworn Brother of <span class="jon">Jon<br>Snow</span></p>
+			</li>
+			<li>
+				<input type="radio" name="charSelect" class="charSelect" id="sandor"/><label for="sandor">Sandor<br>Clegane</label>
+				<p><span class="podrick">Podrick<br>Payne</span> Squire to Brienne of Tarth Sworn to <span class="sansa">Sansa<br>Stark</span> cousin of <span class="jon">Jon<br>Snow</span></p>
+			</li>
+			<li>
+				<input type="radio" name="charSelect" class="charSelect" id="sansa"/><label for="sansa">Sansa<br>Stark</label>
+				<p><span class="sansa">Sansa<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
+			</li>
+			<li>
+				<input type="radio" name="charSelect" class="charSelect" id="stannis"/><label for="stannis">Stannis<br>Baratheon</label>
+				<p>Stannis Baratheon Brother of <span class="robertr">Robert<br>Baratheon</span> Married to <span class="cersei">Cersei<br>Lannister</span> Sister of <span class="tyrion">Tyrion<br>Lannister</span> Married to <span class="sansa">Sansa<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
+			</li>
+			<li>
+				<input type="radio" name="charSelect" class="charSelect" id="theon"/><label for="theon">Theon<br>Greyjoy</label>
+				<p><span class="theon">Theon<br>Greyjoy</span> Ward of <span class="eddard">Eddard<br>Stark</span> Uncle of <span class="jon">Jon<br>Snow</span></p>
+			</li>
+			<li>
+				<input type="radio" name="charSelect" class="charSelect" id="thoros"/><label for="thoros">Thoros<br>of Myr</label>
+				<p><span class="thoros">Thoros of<br>Myr</span> Sworn to Barrick D. Sworn to <span class="eddard">Eddard<br>Stark</span> Uncle of <span class="jon">Jon<br>Snow</span></p>
+			</li>
+			<li>
+				<input type="radio" name="charSelect" class="charSelect" id="tommen"/><label for="tommen">Tommen<br>Baratheon</label>
+				<p><span class="tommen">Tommen<br>Baratheon</span> Nephew of <span class="tyrion">Tyrion<br>Lannister</span> Married to <span class="sansa">Sansa<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
+			</li>
+			<li>
+				<input type="radio" name="charSelect" class="charSelect" id="tormund"/><label for="tormund">Tormund<br>Giantsbane</label>
+				<p><span class="tormund">Tormund<br>Giantsbane</span> Sworn to <span class="jon">Jon<br>Snow</span></p>
+			</li>
+			
+			<li>
+				<input type="radio" name="charSelect" class="charSelect" id="tyrion"/><label for="tyrion">Tyrion<br>Lannister</label>
+				<p><span class="tyrion">Tyrion<br>Lannister</span> Married to <span class="sansa">Sansa<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
+			</li>
+			<li>
+				<input type="radio" name="charSelect" class="charSelect" id="tywin"/><label for="tywin">Tywin<br>Lannister</label>
+				<p><span class="tywin">Tywin<br>Lannister</span> Married to Lady Joanna Mother of <span class="tyrion">Tyrion<br>Lannister</span> Married to <span class="sansa">Sansa<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
+			</li>
+			<li>
+				<input type="radio" name="charSelect" class="charSelect" id="varys"/><label for="varys">Lord<br>Varys</label>
+				<p><span class="varys">Lord<br>Varys</span> Sworn to <span class="daenerys">Daenerys<br>Targaryn</span> Aunt of <span class="jon">Jon<br>Snow</span></p>
+			</li>
+			<li>
+				<input type="radio" name="charSelect" class="charSelect" id="viserys"/><label for="viserys">Viserys<br>Targaryn</label>
+				<p><span class="viserys">Viserys<br>Targaryn</span> Uncle of <span class="jon">Jon<br>Snow</span></p>
+			</li>
+			<li>
+				<input type="radio" name="charSelect" class="charSelect" id="walder"/><label for="walder">Walder<br>Frey</label>
+				<p><span class="walder">Walder<br>Frey</span> <em>Father-in-law to</em> <span class="edmure">Edmure<br>Tully</span> Brother to <span class="catelyn">Catelyn<br>Stark</span> Aunt of <span class="jon">Jon<br>Snow</span></p>
+			</li>
+			<li>
+				<input type="radio" name="charSelect" class="charSelect" id="yara"/><label for="yara">Yara<br>Greyjoy</label>
+				<p><span class="yara">Yara<br>Greyjoy</span> Sister to <span class="theon">Theon<br>Greyjoy</span> Ward of <span class="eddard">Eddard<br>Stark</span> Uncle of <span class="jon">Jon<br>Snow</span></p>
+			</li>
+			<li>
+				<input type="radio" name="charSelect" class="charSelect" id="ygritte"/><label for="ygritte">Ygritte<br></label>
+				<p><span class="ygritte">Ygritte</span> Lover to <span class="jon">Jon<br>Snow</span></p>
 			</li>
 		</ul>	
 	</div>
