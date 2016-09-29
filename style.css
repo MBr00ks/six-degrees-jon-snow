@@ -151,6 +151,7 @@ a#begin:hover {
 	z-index: 5;
 	min-height: 200vh;
 	padding-top: 5%;
+	padding-bottom: 500px;
 }
 #instructions {
 	display: block;
@@ -162,7 +163,7 @@ a#begin:hover {
 
 #top-list {padding: 0px; text-align: center; list-style-type: none;}
 
-.charSelect+label+p span,
+input[type=radio]+label+p span,
 #top-list > li {
 	position:relative;
 	display: inline-block; 
@@ -177,7 +178,7 @@ a#begin:hover {
 	border-radius: 8px;
 }
 
-.charSelect+label+p span {
+input[type=radio]+label+p span {
 	text-align: center;
 }
 
@@ -198,7 +199,7 @@ input[type="radio"]+label {
 	text-shadow: 2px 2px 45px rgba(12, 65, 90, 1); 
 	padding-top: 20px;
 }
-.charSelect+label+p{
+input[type=radio]+label+p {
 	color: #fff;
 	opacity: 1;
 	width: 0px;
@@ -208,19 +209,22 @@ input[type="radio"]+label {
 	left: 0;
 	right: 0;
 	z-index: 1;     
-      -webkit-animation-duration: 1s;
-       animation-duration: 1s;
-       -webkit-animation-fill-mode: both;
-       animation-fill-mode: both;
-       padding: 0 1vw 150px;
-       text-align: center;
-       margin: 0;
-       width:98vw !important;
-       max-height:50vh;
-       overflow-y:scroll;   
-	  
-}
-.charSelect:checked+label+p{
+  -webkit-animation-duration: 1s;
+   animation-duration: 1s;
+   -webkit-animation-fill-mode: both;
+   animation-fill-mode: both;
+   padding: 0px 1vw 75px;
+   text-align: center;
+   margin: 0;
+   width:98vw !important;
+   max-height:50vh;
+   overflow-y:scroll;        
+   background: #000;
+   padding-top: 50px;
+ 
+ }
+
+input[type=radio]:checked+label+p{
 	opacity: 1;
 	width: 90%;
 	transition: all ease-in .4s;
@@ -230,10 +234,10 @@ input[type="radio"]+label {
 	bottom: 0;
 }
  
-.charSelect:checked+label+p span {
+input[type=radio]:checked+label+p span {
 	padding-top: 30px;	
 }
-    .charSelect+label+p em{
+    input[type=radio]+label+p em{
        white-space: nowrap;
        color:#80929b;
      }
@@ -265,12 +269,10 @@ input[type="radio"]+label {
        }
      }
  
-    .charSelect:checked+label+p{
+    input[type=radio]:checked+label+p{
        -webkit-animation-name: fadeInBottom;
          animation-name: fadeInBottom;
      }
- 
-    
  
 
 		
@@ -285,6 +287,10 @@ input[type="radio"]+label {
 	opacity: .7;	
 }
 
+@media screen and (max-width: 505px) {
+	
+
+}
 
 @media screen and (max-width: 500px) {
 	.copy404 .big {

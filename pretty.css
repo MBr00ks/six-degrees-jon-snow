@@ -9,19 +9,23 @@ body {
 	overflow-x: hidden;
 }
 
-.snow{
-	display: block;
-	background-image: url('images/snow-1.png'), url('images/snow-2.png'), url('images/snow-3.png');
-	position: relative;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	z-index:1;
-	-webkit-animation: snow 40s linear infinite;
-	-moz-animation: snow 40s linear infinite;
-	-ms-animation: snow 40s linear infinite;
-	animation: snow 40s linear infinite;
+	.snow{
+		display: block;
+		position: relative;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index:1;
+	}
+@media screen and (min-width: 940px) {
+	.snow {
+		background-image: url('images/snow-1.png'), url('images/snow-2.png'), url('images/snow-3.png');
+		-webkit-animation: snow 40s linear infinite;
+		-moz-animation: snow 40s linear infinite;
+		-ms-animation: snow 40s linear infinite;
+		animation: snow 40s linear infinite;
+	}
 }
 @-webkit-keyframes snow {
     0% { background-position: 0px 0px, 0px 0px, 0px 0px }
@@ -88,6 +92,7 @@ a#begin {
 }	
 }
 
+input[type="radio"]+label { height: auto; }
 
 #top-list > li { 
 	display: inline-block;
@@ -106,27 +111,28 @@ a#begin {
 	border: none;
 }
 
-.charSelect+label,
-.charSelect~li {
+input[type=radio]+label,
+input[type=radio]~li {
 	opacity: .6;
 }
-.charSelect+label:hover,
-.charSelect:checked+label { 
+input[type=radio]+label:hover,
+input[type=radio]:checked+label { 
 	opacity: 1;
 }
- .charSelect+label+p {      
-       background: -moz-linear-gradient(top,  rgba(12,20,24,0) -1%, rgba(12,20,24,0.03) 0%, rgba(12,20,24,0.85) 30%, rgba(12,20,24,1) 100%); /* FF3.6-15 */
-       background: -webkit-linear-gradient(top,  rgba(12,20,24,0) -1%,rgba(12,20,24,0.03) 0%,rgba(12,20,24,0.85) 30%,rgba(12,20,24,1) 100%); /* Chrome10-25,Safari5.1-6 */
-       background: linear-gradient(to bottom,  rgba(12,20,24,0) -1%,rgba(12,20,24,0.03) 0%,rgba(12,20,24,0.85) 30%,rgba(12,20,24,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+ input[type=radio]+label+p {      
+       background: -moz-linear-gradient(top,  rgba(12,20,24,.03) -1%, rgba(12,20,24,0.06) 0%, rgba(12,20,24,0.85) 30%, rgba(12,20,24,1) 100%); /* FF3.6-15 */
+       background: -webkit-linear-gradient(top,  rgba(12,20,24,.03) -1%,rgba(12,20,24,0.06) 0%,rgba(12,20,24,0.85) 30%,rgba(12,20,24,1) 100%); /* Chrome10-25,Safari5.1-6 */
+       background: linear-gradient(to bottom,  rgba(12,20,24,.03) -1%,rgba(12,20,24,0.06) 0%,rgba(12,20,24,0.85) 30%,rgba(12,20,24,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#f2000000',GradientType=0 ); /* IE6-9 */
+	   padding-top: 0;
  }
  
-  .charSelect+label+p span{
+  input[type=radio]+label+p span{
 	background: none;	  
 	border: none;
  }
  
-.charSelect:checked+label+p > span {
+input[type=radio]:checked+label+p > span {
 	display: inline-block;
 	width: 130px;
 	position: relative;
@@ -139,7 +145,7 @@ a#begin {
 	background-color: none;	
 }
 
-.charSelect:checked+label+p > span br {
+input[type=radio]:checked+label+p > span br {
 	display: block!important;
 }
 
