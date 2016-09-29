@@ -162,7 +162,7 @@ a#begin:hover {
 
 #top-list {padding: 0px; text-align: center; list-style-type: none;}
 
-.charSelect+label+p span,
+input[type=radio]+label+p span,
 #top-list > li {
 	position:relative;
 	display: inline-block; 
@@ -177,7 +177,7 @@ a#begin:hover {
 	border-radius: 8px;
 }
 
-.charSelect+label+p span {
+input[type=radio]+label+p span {
 	text-align: center;
 }
 
@@ -198,7 +198,7 @@ input[type="radio"]+label {
 	text-shadow: 2px 2px 45px rgba(12, 65, 90, 1); 
 	padding-top: 20px;
 }
-.charSelect+label+p{
+input[type=radio]+label+p{
 	color: #fff;
 	font-size: .8em;
 	opacity: 0;
@@ -219,14 +219,14 @@ input[type="radio"]+label {
 	margin: 0px auto;
 	z-index: 15;
 }
-.charSelect:checked+label+p{
+input[type=radio]:checked+label+p{
 	opacity: 1;
 	width: 90%;
 	transition: all ease-in .4s;
 	-webkit-transition: all ease-in .4s;
 	text-align: center;
 }
- .charSelect+label+p {      
+ input[type=radio]+label+p {      
        background: rgba(255,255,255,.3);
       -webkit-animation-duration: 1s;
        animation-duration: 1s;
@@ -241,9 +241,10 @@ input[type="radio"]+label {
        bottom:0;
        max-height:50vh;
        overflow-y:scroll;
+	   display:none;
      }
  
-    .charSelect+label+p em{
+    input[type=radio]+label+p em{
        white-space: nowrap;
        color:#80929b;
      }
@@ -275,9 +276,10 @@ input[type="radio"]+label {
        }
      }
  
-    .charSelect:checked+label+p{
+    input[type=radio]:checked+label+p{
        -webkit-animation-name: fadeInBottom;
          animation-name: fadeInBottom;
+		 display:block;
      }
  
     
