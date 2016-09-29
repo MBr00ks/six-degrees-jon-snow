@@ -27,273 +27,279 @@
     
     <p id="instructions">Click on a character to see how they are connected to Jon Snow.</p>
 		<ul id="top-list">
-		
-
-			<li>
-				<input type="radio" name="charSelect" class="charSelect" id="alliser"/><label for="alliser">Alliser<br>Thorne</label>
-				<p><span class="alliser">Alliser<br>Thorne</span> Sworn brother of <span class="jon">Jon<br>Snow</span></p>
+			<li class="at">
+				<input type="radio" class="charSelect" id="at"/><label for="at">Alliser<br>Thorne</label>
+				<p><span class="at">Alliser<br>Thorne</span> <em>Sworn  Brother of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-			<li>
-				<input type="radio" name="charSelect" class="charSelect" id="arya"/><label for="arya">Arta<br>Stark</label>
-				<p><span class="arya">Arya<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
+			<li class="as">
+				<input type="radio" class="charSelect" id="as"/><label for="as">Arya<br>Stark</label>
+				<p><span class="as">Arya<br>Stark</span> <em>Cousin of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
 			
-			<li>
-				<input type="radio" name="charSelect" class="charSelect" id="baylon"/><label for="baylon">Baylon<br>Greyjoy</label>
-				<p><span class="baylon">Baylon<br>Greyjoy</span> Father of <span class="theon">Theon<br>Greyjoy</span> Ward of <span class="eddard">Eddard<br>Stark</span> Uncle of <span class="jon">Jon<br>Snow</span></p>
+			<li class="bg">
+				<input type="radio" class="charSelect" id="bg"/><label for="bg">Baylon<br>Greyjoy</label>
+				<p><span class="bg">Baylon<br>Greyjoy</span> <em><em>Mother of</em></em> <span class="tg">Theon<br>Greyjoy</span> Ward of <span class="es">Eddard<br>Stark</span> <em>Uncle of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-			<li>
-				<input type="radio" name="charSelect" class="charSelect" id="benjen"/><label for="benjen">Benjen<br>Stark</label>
-				<p><span class="benjen">Benjen<br>Stark</span> Uncle of <span class="jon">Jon<br>Snow</span></p>
+			<li class="bjs">
+				<input type="radio" class="charSelect" id="bjs"/><label for="bjs">Benjen<br>Stark</label>
+				<p><span class="bjs">Benjen<br>Stark</span> <em>Uncle of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-			<li>
-				<input type="radio" name="charSelect" class="charSelect" id="berric"/><label for="berric">Berric<br>Dondarion</label>
-				<p><span class="beric">Beric<br>Dondarian</span> Sworn to <span class="eddard">Eddard<br>Stark</span> Uncle of <span class="jon">Jon<br>Snow</span></p>
+			<li class="bd">
+				<input type="radio" class="charSelect" id="bd"/><label for="bd">Beric<br>Dondarian</label>
+				<p><span class="bd">Beric<br>Dondarian</span> <em>Sworn to</em> <span class="es">Eddard<br>Stark</span> <em>Uncle of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-			<li>
-				<input type="radio" name="charSelect" class="charSelect" id="bran"/><label for="bran">Brandon<br>Stark</label>
-				<p><span class="bran">Bran<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
+			<li class="bs">
+				<input type="radio" class="charSelect" id="bs"/><label for="bs">Brandon<br>Stark</label>
+				<p><span class="bs">Bran<br>Stark</span> <em>Cousin of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-			<li>
-				<input type="radio" name="charSelect" class="charSelect" id="tarth"/><label for="tarth">Brien of<br>Tarth</label>
-				<p><span class="brien">Brien of<br>Tarth</span> Sworn to <span class="sansa">Sansa<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
+			<li class="bot">
+				<input type="radio" class="charSelect" id="bot"/><label for="bot">Brien of<br>Tarth</label>
+				<p><span class="bot">Brien of<br>Tarth</span> <em>Sworn to</em> <span class="ss">Sansa<br>Stark</span> <em>Cousin of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-			<li>
-				<input type="radio" name="charSelect" class="charSelect" id="bronn"/><label for="bronn">Bronn<br></label>
-				<p><span class="bronn">Bronn</span> Sworn to <span class="tyrion">Tyrion<br>Lannister</span> Married to <span class="sansa">Sansa<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
+			<li class="b">
+				<input type="radio" class="charSelect" id="b"/><label for="b">Bronn<br></label>
+				<p><span class="b">Bronn</span> <em>Sworn to</em> <span class="tl">Tyrion<br>Lannister</span> <em>Married to</em> <span class="ss">Sansa<br>Stark</span> <em>Cousin of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-            <li>
-				<input type="radio" name="charSelect" class="charSelect" id="brynden"/><label for="brynden">Brynden<br>Tully</label>
-				<p><span class="brynden">Brynden<br>Tully</span> Uncle of <span class="catelyn">Catelyn<br>Stark</span> Aunt of <span class="jon">Jon<br>Snow</span></p>
+            <li class="bt">
+				<input type="radio" class="charSelect" id="bt"/><label for="bt">Brynden<br>Tully</label>
+				<p><span class="bt">Brynden<br>Tully</span> <em>Uncle of</em> <span class="cs">Catelyn<br>Stark</span> <em>Aunt of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-			<li>
-				<input type="radio" name="charSelect" class="charSelect" id="catelyn"/><label for="catelyn">Catelyn<br>Stark</label>
-				<p><span class="catelyn">Catelyn<br>Stark</span> Aunt of <span class="jon">Jon<br>Snow</span></p>
+			<li class="cs">
+				<input type="radio" class="charSelect" id="cs"/><label for="cs">Catelyn<br>Stark</label>
+				<p><span class="cs">Catelyn<br>Stark</span> <em>Aunt of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-			<li>
-				<input type="radio" name="charSelect" class="charSelect" id="cersei"/><label for="cersei">Cersei<br>Baratheon</label>
-				<p><span class="cersei">Cersei<br>Lannister</span> Sister of <span class="tyrion">Tyrion<br>Lannister</span> Married to <span class="sansa">Sansa<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
+			<li class="cl">
+				<input type="radio" class="charSelect" id="cl"/><label for="cl">Cersei<br>Baratheon</label>
+				<p><span class="cl">Cersei<br>Lannister</span> <em>Sister of</em> <span class="tl">Tyrion<br>Lannister</span> <em>Married to</em> <span class="ss">Sansa<br>Stark</span> <em>Cousin of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-			<li>
-				<input type="radio" name="charSelect" class="charSelect" id="daario"/><label for="daario">Daario<br>Naharis</label>
-				<p><span class="dario">Dario<br>Nahris</span> Sworn to <span class="daenerys">Daenerys<br>Targaryen</span>  Aunt of <span class="jon">Jon<br>Snow</span></p>
+			<li class="dn">
+				<input type="radio" class="charSelect" id="dn"/><label for="dn">Daario<br>Naharis</label>
+				<p><span class="dn">Dario<br>Nahris</span> <em>Sworn to</em> <span class="dt">Daenerys<br>Targaryen</span>  <em>Aunt of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-            <li>
-				<input type="radio" name="charSelect" class="charSelect" id="danny"/><label for="danny">Daenerys<br>Targaryen</label>
-				<p><span class="daenerys">Daenerys<br>Targaryen</span> Aunt of <span class="jon">Jon<br>Snow</span></p>
+            <li >
+				<input type="radio" class="charSelect" id="dt"/><label for="dt">Daenerys<br>Targaryen</label>
+				<p><span class="dt">Daenerys<br>Targaryen</span> <em>Aunt of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-            <li>
-				<input type="radio" name="charSelect" class="charSelect" id="davos"/><label for="davos">Davos<br>Seaworth</label>
-				<p><span class="davos">Davos<br>Seaworth</span> Sworn to <span class="jon">Jon<br>Snow</span></p>
+            <li class="ds">
+				<input type="radio" class="charSelect" id="ds"/><label for="ds">Davos<br>Seaworth</label>
+				<p><span class="ds">Davos<br>Seaworth</span> <em>Sworn to</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-            <li>
-				<input type="radio" name="charSelect" class="charSelect" id="daario"/><label for="daario">Doran<br>Martell</label>
-				<p><span class="doran">Doran<br>Martell</span> Brother in law to <span class="rhaegar">Rhaegar<br>Targaryen</span> Father of <span class="jon">Jon<br>Snow</span></p>
+            <li class="dm">
+				<input type="radio" class="charSelect" id="dm"/><label for="dm">Doran<br>Martell</label>
+				<p><span class="dm">Doran<br>Martell</span> <em>Brother-In-Law</em> to <span class="rt">Rhaegar<br>Targaryen</span> <em><em>Mother of</em></em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-            <li>
-				<input type="radio" name="charSelect" class="charSelect" id="eddard"/><label for="eddard">Eddard<br>Stark</label>
-				<p><span class="eddard">Eddard<br>Stark</span> Uncle of <span class="jon">Jon<br>Snow</span></p>
+            <li class="es">
+				<input type="radio" class="charSelect" for="es"/><label for="es">Eddard<br>Stark</label>
+				<p><span class="es">Eddard<br>Stark</span> <em>Uncle of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-            <li>
-				<input type="radio" name="charSelect" class="charSelect" id="edmure"/><label for="edmure">Edmure<br>Tully</label>
-				<p><span class="edmure">Edmure<br>Tully</span> Brother to <span class="catelyn">Catelyn<br>Stark</span> Aunt of <span class="jon">Jon<br>Snow</span></p>
+            <li class="et">
+				<input type="radio" class="charSelect" id="et"/><label for="et">Edmure<br>Tully</label>
+				<p><span class="et">Edmure<br>Tully</span> <em>Brother to</em> <span class="cs">Catelyn<br>Stark</span> <em>Aunt of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-             <li>
-				<input type="radio" name="charSelect" class="charSelect" id="euron"/><label for="euron">Euron<br>Greyjoy</label>
-				<p><span class="euron">Euron<br>Greyjoy</span> Uncle of <span class="theon">Theon<br>Greyjoy</span> Ward of <span class="eddard">Eddard<br>Stark</span> Uncle of <span class="jon">Jon<br>Snow</span></p>
+             <li class="eg">
+				<input type="radio" class="charSelect" id="eg"/><label for="eg">Euron<br>Greyjoy</label>
+				<p><span class="eg">Euron<br>Greyjoy</span> <em>Uncle of</em> <span class="tg">Theon<br>Greyjoy</span> Ward of <span class="es">Eddard<br>Stark</span> <em>Uncle of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-             <li>
-				<input type="radio" name="charSelect" class="charSelect" id="edmure"/><label for="edmure">Gendry<br></label>
-				<p><span class="gendry">Gendry</span> Son of <span class="robertr">Robert<br>Baratheon</span> Sworn brother of <span class="eddard">Eddard<br>Stark</span> Uncle of <span class="jon">Jon<br>Snow</span></p>
+             <li class="g">
+				<input type="radio" class="charSelect" id="et"/><label for="et">Gendry<br></label>
+				<p><span class="g">Gendry</span> <em>Son of</em> <span class="rbb">Robert<br>Baratheon</span> <em>Sworn  Brother of</em> <span class="es">Eddard<br>Stark</span> <em>Uncle of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-             <li>
-				<input type="radio" name="charSelect" class="charSelect" id="mountain"/><label for="mountain">Gregor<br>Clegane</label>
-				<p><span class="gregor">Gregor<br>Clegane</span> Sworn to <span class="cersei">Cersei<br>Lannister</span> Sister of <span class="tyrion">Tyrion<br>Lannister</span> Married to <span class="sansa">Sansa<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
+             <li class="gc">
+				<input type="radio" class="charSelect" id="gc"/><label for="gc">Gregor<br>Clegane</label>
+				<p><span class="gc">Gregor<br>Clegane</span> <em>Sworn to</em> <span class="cl">Cersei<br>Lannister</span> <em>Sister of</em> <span class="tl">Tyrion<br>Lannister</span> <em>Married to</em> <span class="ss">Sansa<br>Stark</span> <em>Cousin of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-             <li>
-				<input type="radio" name="charSelect" class="charSelect" id="worm"/><label for="worm">Grey<br>Worm</label>
-				<p><span class="worm">Grey<br>Worm</span> Sworn to <span class="daenerys">Daenerys<br>Targaryn</span> Aunt of <span class="jon">Jon<br>Snow</span></p>
+             <li class="gw">
+				<input type="radio" class="charSelect" id="gw"/><label for="gw">Grey<br>Worm</label>
+				<p><span class="gw">Grey<br>Worm</span> <em>Sworn to</em> <span class="dt">Daenerys<br>Targaryn</span> <em>Aunt of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-             <li>
-				<input type="radio" name="charSelect" class="charSelect" id="hodor"/><label for="hodor">Hodor<br></label>
-				<p><span class="hodor">Hodor</span> Sworn to <span class="eddard">Eddard<br>Stark</span> Uncle of <span class="jon">Jon<br>Snow</span></p>
+             <li class="h">
+				<input type="radio" class="charSelect" id="h"/><label for="h">Hodor<br></label>
+				<p><span class="h">Hodor</span> <em>Sworn to</em> <span class="es">Eddard<br>Stark</span> <em>Uncle of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-             <li>
-				<input type="radio" name="charSelect" class="charSelect" id="jamie"/><label for="jamie">Jamie<br>Lannister</label>
-				<p><span class="jaime">Jaime<br>Lannister</span> Brother to <span class="tyrion">Tyrion<br>Lannister</span> Married to <span class="sansa">Sansa<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
+             <li class="jl">
+				<input type="radio" class="charSelect" id="jl"/><label for="jl">Jamie<br>Lannister</label>
+				<p><span class="jl">Jaime<br>Lannister</span> <em>Brother to</em> <span class="tl">Tyrion<br>Lannister</span> <em>Married to</em> <span class="ss">Sansa<br>Stark</span> <em>Cousin of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-             <li>
-				<input type="radio" name="charSelect" class="charSelect" id="jaqen"/><label for="jaqen">Jaqen<br>H'ghar</label>
-				<p><span class="jaqen">Jaqen<br>H'ghar</span> Mentor of <span class="arya">Arya<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
+             <li class="jh">
+				<input type="radio" class="charSelect" id="jh"/><label for="jh">Jaqen<br>H'ghar</label>
+				<p><span class="jh">Jaqen<br>H'ghar</span> Mentor of <span class="arya">Arya<br>Stark</span> <em>Cousin of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-            <li>
-				<input type="radio" name="charSelect" class="charSelect" id="jeor"/><label for="jeor">Jeor<br>Mormont</label>
-				<p><span class="jeor">Jeor<br>Mormont</span> <em>Ex-commander</em> of <span class="jon">Jon<br>Snow</span></p>
+            <li class="jm">
+				<input type="radio" class="charSelect" id="jm"/><label for="jm">Jeor<br>Mormont</label>
+				<p><span class="jm">Jeor<br>Mormont</span> <em>Ex-commander of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-            <li>
-				<input type="radio" name="charSelect" class="charSelect" id="joffrey"/><label for="joffrey">Joffrey<br>Baratheon</label>
-				<p><span class="joffery">Joffery<br>Baratheon</span> Nephew of <span class="tyrion">Tyrion<br>Lannister</span> Married to <span class="sansa">Sansa<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
+            <li class="jb">
+				<input type="radio" class="charSelect" id="jb"/><label for="jb">Joffrey<br>Baratheon</label>
+				<p><span class="jb">Joffery<br>Baratheon</span> <em>Nephew of</em> <span class="tl">Tyrion<br>Lannister</span> <em>Married to</em> <span class="ss">Sansa<br>Stark</span> <em>Cousin of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-            <li>
-				<input type="radio" name="charSelect" class="charSelect" id="jojen"/><label for="jojen">Jojen<br>Reed</label>
-				<p><span class="jojen">JoJen<br>Reed</span> Son of Howlan Reed Sworn brother to <span class="eddard">Eddard<br>Stark</span> Uncle of <span class="jon">Jon<br>Snow</span></p>
+            <li class="jr">
+				<input type="radio" class="charSelect" id="jr"/><label for="jr">Jojen<br>Reed</label>
+				<p><span class="jr">JoJen<br>Reed</span> <em>Son of</em> Howlan Reed <em>Sworn Brother</em> to <span class="es">Eddard<br>Stark</span> <em>Uncle of</em> <span class="js">Jon<br>Snow</span></p>
+			</li> 
+			<li class="jhr">
+				<input type="radio" class="charSelect" id="jhr"/><label for="jhr">Jorah<br>Mormont</label>
+				<p><span class="jhr">Jorah<br>Mormont</span> <em>Sworn to</em> <span class="dt">Daenerys<br>Targaryn</span> <em>Aunt of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-            <li>
-				<input type="radio" name="charSelect" class="charSelect" id="kevan"/><label for="kevan">Kevan<br>Lannister</label>
-				<p><span class="keven">Keven<br>Lannister</span> Uncle of <span class="tyrion">Tyrion<br>Lannister</span> Married to <span class="sansa">Sansa<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
+            <li class="kl">
+				<input type="radio" class="charSelect" id="kl"/><label for="kl">Kevan<br>Lannister</label>
+				<p><span class="kl">Keven<br>Lannister</span> <em>Uncle of</em> <span class="tl">Tyrion<br>Lannister</span> <em>Married to</em> <span class="ss">Sansa<br>Stark</span> <em>Cousin of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-            <li>
-				<input type="radio" name="charSelect" class="charSelect" id="drogo"/><label for="drogo">Khal<br>Drogo</label>
-				<p><span class="drogo">Khal<br>Drogo</span> <em>Married to (formerly)</em> <span class="daenerys">Daenerys<br>Targaryn</span> Aunt of <span class="jon">Jon<br>Snow</span></p>
+            <li class="kd">
+				<input type="radio" class="charSelect" id="kd"/><label for="kd">Khal<br>Drogo</label>
+				<p><span class="kd">Khal<br>Drogo</span> <em><em>Married to</em> (formerly)</em> <span class="dt">Daenerys<br>Targaryn</span> <em>Aunt of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-            <li>
-				<input type="radio" name="charSelect" class="charSelect" id="lancel"/><label for="lancel">Lancel<br>Lannister</label>
-				<p><span class="lancel">Lancel<br>Lannister</span> Son of <span class="keven">Keven<br>Lannister</span> Uncle of <span class="tyrion">Tyrion<br>Lannister</span> Married to <span class="sansa">Sansa<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
+            <li  class="ll">
+				<input type="radio" class="charSelect" id="ll"/><label for="ll">Lancel<br>Lannister</label>
+				<p><span class="ll">Lancel<br>Lannister</span> <em>Son of</em> <span class="keven">Keven<br>Lannister</span> <em>Uncle of</em> <span class="tl">Tyrion<br>Lannister</span> <em>Married to</em> <span class="ss">Sansa<br>Stark</span> <em>Cousin of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-             <li>
-				<input type="radio" name="charSelect" class="charSelect" id="loras"/><label for="loras">Loras<br>Tyrell</label>
-				<p><span class="loras">Loras<br>Tyrell</span> Brother to <span class="margerie">Margerie<br>Tyrell</span> Married to <span class="tommen">Tommen<br>Baratheon</span> Nephew of <span class="tyrion">Tyrion<br>Lannister</span> Married to <span class="sansa">Sansa<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
+             <li class="lt">
+				<input type="radio" class="charSelect" id="lt"/><label for="lt">Loras<br>Tyrell</label>
+				<p><span class="lt">Loras<br>Tyrell</span> <em>Brother to</em> <span class="mrt">Margaery<br>Tyrell</span> <em>Married to</em> <span class="tmb">Tommen<br>Baratheon</span> <em>Nephew of</em> <span class="tl">Tyrion<br>Lannister</span> <em>Married to</em> <span class="ss">Sansa<br>Stark</span> <em>Cousin of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-             <li>
-				<input type="radio" name="charSelect" class="charSelect" id="lysa"/><label for="lysa">Lysa<br>Arryn</label>
-				<p><span class="lysa">Lysa<br>Arryn</span> Sister of <span class="catelyn">Catelyn<br>Stark</span> Aunt of <span class="jon">Jon<br>Snow</span></p>
+             <li  class="la">>
+				<input type="radio" class="charSelect" id="la"/><label for="la">Lysa<br>Arryn</label>
+				<p><span class="la">Lysa<br>Arryn</span> <em>Sister of</em> <span class="cs">Catelyn<br>Stark</span> <em>Aunt of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-             <li>
-				<input type="radio" name="charSelect" class="charSelect" id="mace"/><label for="mace">Mace<br>Tyrell</label>
-				<p><span class="mace">Mace<br>Tyrell</span> Father of <span class="margerie">Margerie<br>Tyrell</span> Married to <span class="tommen">Tommen<br>Baratheon</span> Nephew of <span class="tyrion">Tyrion<br>Lannister</span> Married to <span class="sansa">Sansa<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
+             <li class="mt">
+				<input type="radio" class="charSelect" id="mt"/><label for="mt">Mace<br>Tyrell</label>
+				<p><span class="mt">Mace<br>Tyrell</span> <em><em>Mother of</em></em> <span class="mrt">Margaery<br>Tyrell</span> <em>Married to</em> <span class="tmb">Tommen<br>Baratheon</span> <em>Nephew of</em> <span class="tl">Tyrion<br>Lannister</span> <em>Married to</em> <span class="ss">Sansa<br>Stark</span> <em>Cousin of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-             <li>
-				<input type="radio" name="charSelect" class="charSelect" id="aemon"/><label for="aemon">Maester<br>Aemon</label>
-				<p><span class="aemon">Maester<br>Aemon</span> Grandfather of <span class="jon">Jon<br>Snow</span></p>
+             <li  class="ma">
+				<input type="radio" class="charSelect" id="ma"/><label for="ma">Maester<br>Aemon</label>
+				<p><span class="ma">Maester<br>Aemon</span> <em>Grandfather of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-            <li>
-				<input type="radio" name="charSelect" class="charSelect" id="mance"/><label for="mance">Mance<br>Rayder</label>
-				<p><span class="mance">Mance<br>Rayder</span> <em>Ex-Commander</em> of <span class="jon">Jon<br>Snow</span></p>
+            <li class="mr">
+				<input type="radio" class="charSelect" id="mr"/><label for="mr">Mance<br>Rayder</label>
+				<p><span class="mr">Mance<br>Rayder</span> <em>Ex-Commander</em> of <span class="js">Jon<br>Snow</span></p>
 			</li>
-            <li>
-				<input type="radio" name="charSelect" class="charSelect" id="margery"/><label for="margery">Margaerie Tyrell</label>
-				<p><span class="margerie">Margerie<br>Tyrell</span> Married to Tommen Baratheron Nephew of Tyrion Lanniester Married to <span class="sansa">Sansa<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
+            <li class="mrt">
+				<input type="radio" class="charSelect" id="margery"/><label for="margery">Margaery Tyrell</label>
+				<p><span class="mrt">Margaery<br>Tyrell</span> <em>Married to</em> Tommen Baratheron <em>Nephew of</em> Tyrion Lanniester <em>Married to</em> <span class="ss">Sansa<br>Stark</span> <em>Cousin of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-            <li>
-				<input type="radio" name="charSelect" class="charSelect" id="meera"/><label for="meera">Meera<br>Reed</label>
-				<p><span class="meera">Meera<br>Reed</br> Daughter of Howlan Reed Sworn brother to <span class="eddard">Eddard<br>Stark</span> Uncle of <span class="jon">Jon<br>Snow</span></p>
+            <li class="mer">
+				<input type="radio" class="charSelect" id="mer"/><label for="mer">Meera<br>Reed</label>
+				<p><span class="mer">Meera<br>Reed</br> <em>Daughter of</em> Howlan Reed Sworn brother to <span class="es">Eddard<br>Stark</span> <em>Uncle of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-            <li>
-				<input type="radio" name="charSelect" class="charSelect" id="melisandre"/><label for="melisandre">Melisandre<br></label>
-				<p><span class="melisandre">Melisandre</span> Mother of <span class="shadow">Shadow-baby</span> Newphew to <span class="robertr">Robert<br>Baratheon</span>  Married to <span class="cersei">Cersei<br>Lannister</span> Sister of Tyrion Lanister Married to <span class="sansa">Sansa<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
+            <li class="mel">
+				<input type="radio" class="charSelect" id="mel"/><label for="mel">Melisandre<br></label>
+				<p><span class="mel">Melisandre</span> <em>Mother of</em> <span class="shadow">Shadow-baby</span> Newphew to <span class="rbb">Robert<br>Baratheon</span>  <em>Married to</em> <span class="cl">Cersei<br>Lannister</span> <em>Sister of</em> Tyrion Lanister <em>Married to</em> <span class="ss">Sansa<br>Stark</span> <em>Cousin of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-            <li>
-				<input type="radio" name="charSelect" class="charSelect" id="missandei"/><label for="missandei">Missandei<br></label>
-				<p><span class="missandei">Missandei</span> Sworn to <span class="daenerys">Daenerys<br>Targaryn</span> Aunt of <span class="jon">Jon<br>Snow</span></p>
+            <li  class="mis">
+				<input type="radio" class="charSelect" id="mis"/><label for="mis">Missandei<br></label>
+				<p><span class="mis">Missandei</span> <em>Sworn to</em> <span class="dt">Daenerys<br>Targaryn</span> <em>Aunt of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-            <li>
-				<input type="radio" name="charSelect" class="charSelect" id="oberyn"/><label for="oberyn">Oberyn<br>Martell</label>
-				<p><span class="oberyn">Oberyn<br>Tyrell</span> Brother in law to <span class="rhaegar">Rhaegar Targaryn</span> Father of <span class="jon">Jon<br>Snow</span></p>
+            <li class="om">
+				<input type="radio" class="charSelect" id="om"/><label for="om">Oberyn<br>Martell</label>
+				<p><span class="om">Oberyn<br>Tyrell</span> <em>Brother-In-Law</em> to <span class="rt">Rhaegar Targaryn</span> <em><em>Mother of</em></em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-            <li>
-				<input type="radio" name="charSelect" class="charSelect" id="olenna"/><label for="olenna">Olenna<br>Tyrell</label>
-				<p><span class="olenna">Olenna Tyrell</span> <em>Grandmother of</em> <span class="margerie">Margerie<br>Tyrell</span> Married to Tommen Bratheon Nephew of <span class="tyrion">Tyrion<br>Lannister</span> Married to <span class="sansa">Sansa<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
+            <li class="ot">
+				<input type="radio" class="charSelect" id="ot"/><label for="ot">Olenna<br>Tyrell</label>
+				<p><span class="ot">Olenna Tyrell</span> <em>Grandmother of</em> <span class="mrt">Margaery<br>Tyrell</span> <em>Married to</em> Tommen Bratheon <em>Nephew of</em> <span class="tl">Tyrion<br>Lannister</span> <em>Married to</em> <span class="ss">Sansa<br>Stark</span> <em>Cousin of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-            <li>
-				<input type="radio" name="charSelect" class="charSelect" id="baelish"/><label for="baelish">Petyr<br>Baelish</label>
-				<p><span class="petyr">Petyr<br>Baelish</span> Married to(formerly) <span class="lysa">Lysa<br>Arryn</span> Sister of <span class="catelyn">Catelyn<br>Stark</span> Aunt of <span class="jon">Jon<br>Snow</span></p>
+            <li class="pb">
+				<input type="radio" class="charSelect" id="baelish"/><label for="baelish">Petyr<br>Baelish</label>
+				<p><span class="pb">Petyr<br>Baelish</span> <em>Married to</em>(formerly) <span class="lysa">Lysa<br>Arryn</span> <em>Sister of</em> <span class="cs">Catelyn<br>Stark</span> <em>Aunt of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-            <li>
-				<input type="radio" name="charSelect" class="charSelect" id="podrick"/><label for="podrick">Podrick<br>Payne</label>
-				<p><span class="podrick">Podrick<br>Payne</span> Squire to <span class="briene">Briene of<br>Tarth</span> Sworn to <span class="sansa">Sansa<br>Stark</span> cousin of <span class="jon">Jon<br>Snow</span></p>
+            <li class="pp">
+				<input type="radio" class="charSelect" id="pp"/><label for="pp">Podrick<br>Payne</label>
+				<p><span class="pp">Podrick<br>Payne</span> <em>Squire to</em> <span class="briene">Briene of<br>Tarth</span> <em>Sworn to</em> <span class="ss">Sansa<br>Stark</span> cousin of <span class="js">Jon<br>Snow</span></p>
 			</li>
-            <li>
-				<input type="radio" name="charSelect" class="charSelect" id="pycelle"/><label for="pycelle">Maester<br>Pycelle</label>
-				<p><span class="maester">Maester<br>Pycelle</span> <em>Order of Maesters with</em> <span class="aemon">Maester<br>Aemon</span> Grandfather of <span class="jon">Jon<br>Snow</span></p>
+            <li class="pyc">
+				<input type="radio" class="charSelect" id="pyc"/><label for="pyc">Maester<br>Pycelle</label>
+				<p><span class="pyc">Maester<br>Pycelle</span> <em>Order of Maesters with</em> <span class="ma">Maester<br>Aemon</span> <em>Grandfather of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-             <li>
-				<input type="radio" name="charSelect" class="charSelect" id="qyburn"/><label for="qyburn">Qyburn</label>
-				<p><span class="qyburn">Qyburn</span> Sworn to <span class="cersie">Cersei<br>Lannister</span> Sister or <span class="tyrion">Tyrion<br>Lannister</span> Formerly married to <span class="sansa">Sansa<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span>  </p>
+             <li class="qy">
+				<input type="radio" class="charSelect" id="qy"/><label for="qy">Qyburn</label>
+				<p><span class="qy">Qyburn</span> <em>Sworn to</em> <span class="cersie">Cersei<br>Lannister</span> Sister or <span class="tl">Tyrion<br>Lannister</span> Formerly married to <span class="ss">Sansa<br>Stark</span> <em>Cousin of</em> <span class="js">Jon<br>Snow</span>  </p>
 			</li>
-             <li>
-				<input type="radio" name="charSelect" class="charSelect" id="ramsay"/><label for="ramsay">Ramsay<br>Bolton</label>
-				<p><span class="ramsay">Ramsay<br>Bolton</span> Married to <span class="sansa">Sansa<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
+             <li class="rb">
+				<input type="radio" class="charSelect" id="rb"/><label for="rb">Ramsay<br>Bolton</label>
+				<p><span class="rb">Ramsay<br>Bolton</span> <em>Married to</em> <span class="ss">Sansa<br>Stark</span> <em>Cousin of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-             <li>
-				<input type="radio" name="charSelect" class="charSelect" id="renly"/><label for="renly">Renly<br>Baratheon</label>
-				<p><span class="renly">Renly<br>Baratheon</span> Married to(formerly) <span class="margerie">Margerie<br>Tyrell</span> Married to <span class="tommen">Tommen<br>Baratheon</span> Nephew of <span class="tyrion">Tyrion<br>Lannister</span> Married to <span class="sansa">Sansa<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
+             <li class="rnb">
+				<input type="radio" class="charSelect" id="rnb"/><label for="rnb">Renly<br>Baratheon</label>
+				<p><span class="rnb">Renly<br>Baratheon</span> <em>Married to</em>(formerly) <span class="mrt">Margaery<br>Tyrell</span> <em>Married to</em> <span class="tmb">Tommen<br>Baratheon</span> <em>Nephew of</em> <span class="tl">Tyrion<br>Lannister</span> <em>Married to</em> <span class="ss">Sansa<br>Stark</span> <em>Cousin of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-             <li>
-				<input type="radio" name="charSelect" class="charSelect" id="robb"/><label for="robb">Robb<br>Stark</label>
-				<p><span class="robb">Robb<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
+			 <li class="rs">
+				<input type="radio" class="charSelect" id="rs"/><label for="rs">Rickon<br>Stark</label>
+				<p><span class="rs">Rickon<br>Stark</span> <em>Cousin of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-     		<li>
-				<input type="radio" name="charSelect" class="charSelect" id="robert"/><label for="robert">Robert<br>Baratheon</label>
-				<p><span class="robertr">Robert<br>Baratheon</span> Married to <span class="cersei">Cersei<br>Lannister</span> Sister of <span class="tyrion">Tyrion<br>Lannister</span> Married to <span class="sansa">Sansa<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
+             <li class="rbs">
+				<input type="radio" class="charSelect" id="rbs"/><label for="rbs">Robb<br>Stark</label>
+				<p><span class="rbs">Robb<br>Stark</span> <em>Cousin of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-			<li>
-				<input type="radio" name="charSelect" class="charSelect" id="robin"/><label for="robin">Robin<br>Arryn</label>
-				<p><span class="robin">Robin<br>Arryn</span> Nephew of <span class="catelyn">Catelyn<br>Stark</span> Aunt of <span class="jon">Jon<br>Snow</span></p>
+     		<li class="rbb">
+				<input type="radio" class="charSelect" id="rbb"/><label for="rbb">Robert<br>Baratheon</label>
+				<p><span class="rbb">Robert<br>Baratheon</span> <em>Married to</em> <span class="cl">Cersei<br>Lannister</span> <em>Sister of</em> <span class="tl">Tyrion<br>Lannister</span> <em>Married to</em> <span class="ss">Sansa<br>Stark</span> <em>Cousin of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-			<li>
-				<input type="radio" name="charSelect" class="charSelect" id="roose"/><label for="roose">Roose<br>Bolton</label>
-				<p><span class="roose">Roose<br>Bolton</span> Father of Ramsay Bolton Married to <span class="sansa">Sansa<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
+			<li class="ra">
+				<input type="radio" class="charSelect" id="ra"/><label for="ra">Robin<br>Arryn</label>
+				<p><span class="ra">Robin<br>Arryn</span> <em>Nephew of</em> <span class="cs">Catelyn<br>Stark</span> <em>Aunt of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-			<li>
-				<input type="radio" name="charSelect" class="charSelect" id="samwell"/><label for="samwell">Samwell<br>Tarly</label>
-				<p><span class="samwell">Samwell<br>Tarley</span> Sworn Brother of <span class="jon">Jon<br>Snow</span></p>
+			<li class="roo">
+				<input type="radio" class="charSelect" id="roo"/><label for="roo">Roose<br>Bolton</label>
+				<p><span class="roo">Roose<br>Bolton</span> <em>Mother of</em> Ramsay Bolton <em>Married to</em> <span class="ss">Sansa<br>Stark</span> <em>Cousin of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-			<li>
-				<input type="radio" name="charSelect" class="charSelect" id="sandor"/><label for="sandor">Sandor<br>Clegane</label>
-				<p><span class="podrick">Podrick<br>Payne</span> Squire to Brienne of Tarth Sworn to <span class="sansa">Sansa<br>Stark</span> cousin of <span class="jon">Jon<br>Snow</span></p>
+			<li class="sam">
+				<input type="radio" class="charSelect" id="sam"/><label for="sam">Samwell<br>Tarly</label>
+				<p><span class="sam">Samwell<br>Tarley</span> <em>Sworn Brother of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-			<li>
-				<input type="radio" name="charSelect" class="charSelect" id="sansa"/><label for="sansa">Sansa<br>Stark</label>
-				<p><span class="sansa">Sansa<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
+			<li class="sg">
+				<input type="radio" class="charSelect" id="sg"/><label for="sg">Sandor<br>Clegane</label>
+				<p><span class="sg">Sandor<br>Clegane</span> <em>Mentor of</em> <span class="as">Arya<br>Stark</span> cousin of <span class="js">Jon<br>Snow</span></p>
 			</li>
-			<li>
-				<input type="radio" name="charSelect" class="charSelect" id="stannis"/><label for="stannis">Stannis<br>Baratheon</label>
-				<p>Stannis Baratheon Brother of <span class="robertr">Robert<br>Baratheon</span> Married to <span class="cersei">Cersei<br>Lannister</span> Sister of <span class="tyrion">Tyrion<br>Lannister</span> Married to <span class="sansa">Sansa<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
+			<li class="ss">
+				<input type="radio" class="charSelect" for="ss"/><label for="ss">Sansa<br>Stark</label>
+				<p><span class="ss">Sansa<br>Stark</span> <em>Cousin of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-			<li>
-				<input type="radio" name="charSelect" class="charSelect" id="theon"/><label for="theon">Theon<br>Greyjoy</label>
-				<p><span class="theon">Theon<br>Greyjoy</span> Ward of <span class="eddard">Eddard<br>Stark</span> Uncle of <span class="jon">Jon<br>Snow</span></p>
+			<li class="sb">
+				<input type="radio" class="charSelect" id="sb"/><label for="sb">Stannis<br>Baratheon</label>
+				<p><span class="sb">Stannis<br>Baratheon</span> <em>Brother of</em> <span class="rbb">Robert<br>Baratheon</span> <em>Married to</em> <span class="cl">Cersei<br>Lannister</span> <em>Sister of</em> <span class="tl">Tyrion<br>Lannister</span> <em>Married to</em> <span class="ss">Sansa<br>Stark</span> <em>Cousin of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-			<li>
-				<input type="radio" name="charSelect" class="charSelect" id="thoros"/><label for="thoros">Thoros<br>of Myr</label>
-				<p><span class="thoros">Thoros of<br>Myr</span> Sworn to Barrick D. Sworn to <span class="eddard">Eddard<br>Stark</span> Uncle of <span class="jon">Jon<br>Snow</span></p>
+			<li class="tg">
+				<input type="radio" class="charSelect" id="tg"/><label for="tg">Theon<br>Greyjoy</label>
+				<p><span class="tg">Theon<br>Greyjoy</span> Ward of <span class="es">Eddard<br>Stark</span> <em>Uncle of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-			<li>
-				<input type="radio" name="charSelect" class="charSelect" id="tommen"/><label for="tommen">Tommen<br>Baratheon</label>
-				<p><span class="tommen">Tommen<br>Baratheon</span> Nephew of <span class="tyrion">Tyrion<br>Lannister</span> Married to <span class="sansa">Sansa<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
+			<li class="tom">
+				<input type="radio" class="charSelect" id="tom"/><label for="tom">Thoros<br>of Myr</label>
+				<p><span class="tom">Thoros of<br>Myr</span> <em>Sworn to</em> <span class="bd">Beric Dondarian</span> <em>Sworn to</em> <span class="es">Eddard<br>Stark</span> <em>Uncle of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-			<li>
-				<input type="radio" name="charSelect" class="charSelect" id="tormund"/><label for="tormund">Tormund<br>Giantsbane</label>
-				<p><span class="tormund">Tormund<br>Giantsbane</span> Sworn to <span class="jon">Jon<br>Snow</span></p>
+			<li class="tb">
+				<input type="radio" class="charSelect" id="tb"/><label for="tb">Tommen<br>Baratheon</label>
+				<p><span class="tb">Tommen<br>Baratheon</span> <em>Nephew of</em> <span class="tl">Tyrion<br>Lannister</span> <em>Married to</em> <span class="ss">Sansa<br>Stark</span> <em>Cousin of</em> <span class="js">Jon<br>Snow</span></p>
+			</li>
+			<li class="tmg">
+				<input type="radio" class="charSelect" id="tmg"/><label for="tmg">Tormund<br>Giantsbane</label>
+				<p><span class="tmg">Tormund<br>Giantsbane</span> <em>Sworn to</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
 			
-			<li>
-				<input type="radio" name="charSelect" class="charSelect" id="tyrion"/><label for="tyrion">Tyrion<br>Lannister</label>
-				<p><span class="tyrion">Tyrion<br>Lannister</span> Married to <span class="sansa">Sansa<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
+			<li class="tl">
+				<input type="radio" class="charSelect" id="tl"/><label for="tl">Tyrion<br>Lannister</label>
+				<p><span class="tl">Tyrion<br>Lannister</span> <em>Married to</em> <span class="ss">Sansa<br>Stark</span> <em>Cousin of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-			<li>
-				<input type="radio" name="charSelect" class="charSelect" id="tywin"/><label for="tywin">Tywin<br>Lannister</label>
-				<p><span class="tywin">Tywin<br>Lannister</span> Married to Lady Joanna Mother of <span class="tyrion">Tyrion<br>Lannister</span> Married to <span class="sansa">Sansa<br>Stark</span> Cousin of <span class="jon">Jon<br>Snow</span></p>
+			<li class="tyl">
+				<input type="radio" class="charSelect" id="tyl"/><label for="tyl">Tywin<br>Lannister</label>
+				<p><span class="tyl">Tywin<br>Lannister</span> <em>Married to</em> <span class="empty">Lady<br>Joanna</span> <em>Mother of</em> <span class="tl">Tyrion<br>Lannister</span> <em>Married to</em> <span class="ss">Sansa<br>Stark</span> <em>Cousin of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-			<li>
-				<input type="radio" name="charSelect" class="charSelect" id="varys"/><label for="varys">Lord<br>Varys</label>
-				<p><span class="varys">Lord<br>Varys</span> Sworn to <span class="daenerys">Daenerys<br>Targaryn</span> Aunt of <span class="jon">Jon<br>Snow</span></p>
+			<li class="lv">
+				<input type="radio" class="charSelect" id="lv"/><label for="lv">Lord<br>Varys</label>
+				<p><span class="lv">Lord<br>Varys</span> <em>Sworn to</em> <span class="dt">Daenerys<br>Targaryn</span> <em>Aunt of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-			<li>
-				<input type="radio" name="charSelect" class="charSelect" id="viserys"/><label for="viserys">Viserys<br>Targaryn</label>
-				<p><span class="viserys">Viserys<br>Targaryn</span> Uncle of <span class="jon">Jon<br>Snow</span></p>
+			<li class="vt">
+				<input type="radio" class="charSelect" id="vt"/><label for="vt">Viserys<br>Targaryn</label>
+				<p><span class="vt">Viserys<br>Targaryn</span> <em>Uncle of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-			<li>
-				<input type="radio" name="charSelect" class="charSelect" id="walder"/><label for="walder">Walder<br>Frey</label>
-				<p><span class="walder">Walder<br>Frey</span> <em>Father-in-law to</em> <span class="edmure">Edmure<br>Tully</span> Brother to <span class="catelyn">Catelyn<br>Stark</span> Aunt of <span class="jon">Jon<br>Snow</span></p>
+			<li class="wf">
+				<input type="radio" class="charSelect" id="wf"/><label for="wf">Walder<br>Frey</label>
+				<p><span class="wf">Walder<br>Frey</span> <em>Father-in-law to</em> <span class="et">Edmure<br>Tully</span> <em>Brother to</em> <span class="cs">Catelyn<br>Stark</span> <em>Aunt of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-			<li>
-				<input type="radio" name="charSelect" class="charSelect" id="yara"/><label for="yara">Yara<br>Greyjoy</label>
-				<p><span class="yara">Yara<br>Greyjoy</span> Sister to <span class="theon">Theon<br>Greyjoy</span> Ward of <span class="eddard">Eddard<br>Stark</span> Uncle of <span class="jon">Jon<br>Snow</span></p>
+			<li class="yg">
+				<input type="radio" class="charSelect" id="yg"/><label for="yg">Yara<br>Greyjoy</label>
+				<p><span class="yg">Yara<br>Greyjoy</span> Sister to <span class="tg">Theon<br>Greyjoy</span> Ward of <span class="es">Eddard<br>Stark</span> <em>Uncle of</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
-			<li>
-				<input type="radio" name="charSelect" class="charSelect" id="ygritte"/><label for="ygritte">Ygritte<br></label>
-				<p><span class="ygritte">Ygritte</span> Lover to <span class="jon">Jon<br>Snow</span></p>
+			<li class="y">
+				<input type="radio" class="charSelect" id="y"/><label for="y">Ygritte<br></label>
+				<p><span class="y">Ygritte</span> <em>Lover to</em> <span class="js">Jon<br>Snow</span></p>
 			</li>
 		</ul>	
 	</div>

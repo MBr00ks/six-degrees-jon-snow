@@ -48,7 +48,37 @@ body {
 .splash span {
 	visibility:hidden;
 }
+@media screen and (max-width: 1000px){
+	.splash {
+		min-height: 517px;
+		width: 95%;
+		background-image: url(images/title.png)!important;
+		background-size: auto 60%!important;
+		background-position: center 50px!important;
+		background-repeat: no-repeat;
+	}
+}
 
+@media screen and (max-width: 640px){
+	header {
+		padding-top: 50px;
+	}
+}
+
+@media screen and (max-width: 440px){
+	.splash {
+		min-height: 417px;
+		height: 417px;
+	}
+}
+
+@media screen and (max-width: 355px){
+	.splash {background-size: 100% auto!important;}
+	a#begin { bottom: 80px;}
+	
+}
+
+@media screen and (min-width: 1000px) {
 a#begin {	
 	background: rgba(1,14,24,.8);
 	bottom: 30px;
@@ -56,7 +86,7 @@ a#begin {
 	border: none;
 	margin: 0px 80px 0px auto;
 }	
-
+}
 
 
 #top-list > li { 
@@ -67,7 +97,7 @@ a#begin {
     background-image: url('images/ports/c_01.png'); 
 	background-repeat: no-repeat;
 	background-size: 100% auto;
-	background-position: center top;
+	background-position: center -10px;
 	background-color: none;	
 	border: none;
 }
@@ -105,7 +135,7 @@ a#begin {
     background-image: url('images/ports/c_01.png'); 
 	background-repeat: no-repeat;
 	background-size: 100% auto;
-	background-position: center -10px;
+	background-position: center -20px;
 	background-color: none;	
 }
 
@@ -126,13 +156,77 @@ input[type="radio"]+label {
 
 
 /*// DEGREE PORTRAITS //*/
-#alliser, .alliser { }
-#arya, .arya{ background-position: -605px -1245px }
-#balon, .balon{ background-position: -605px -1245px}
-#benjen, .benjen{ background-position: -605px -1245px}
-#beric, .beric{ background-position:-605px -1245px }
-#brandon, .brandon{ background-position: -605px -1245px}
-#breinne, .brienne{ background-position: -605px -1245px}
-#bronn, .bronn{ background-position:-605px -1245px }
-
-.jon { background-image: url(images/jon-portrait-big.png)!important;}
+.at { background-image: url('images/ports/c_25.png')!important; }  
+.as { background-image: url('images/ports/c_29.png')!important;  }
+.bg { background-image: url('images/ports/c_21.png')!important;  }
+.bjs { background-image: url('images/ports/c_30.png')!important;  }
+.bd { background-image: url('images/ports/c_62.png')!important;  }
+.bs { background-image: url('images/ports/c_31.png')!important;  }
+.bot { background-image: url('images/ports/c_63.png')!important;  }
+.b { background-image: url('images/ports/c_04.png')!important;  }
+.bt { background-image: url('images/ports/c_45.png')!important;  }
+.cs { background-image: url('images/ports/c_32.png')!important;  }
+.cl { background-image: url('images/ports/c_48.png')!important;  }
+.dm { background-image: url('images/ports/c_09.png')!important;  }
+.dn { background-image: url('images/ports/c_13.png')!important;  }
+.dt { background-image: url('images/ports/c_11.png')!important;  }
+.ds { background-image: url('images/ports/c_64.png')!important;  }
+.dm { background-image: url('images/ports/c_09.png')!important;  }
+.es { background-image: url('images/ports/c_33.png')!important;  }
+.et { background-image: url('images/ports/c_46.png')!important;  }
+.eg { background-image: url('images/ports/c_22.png')!important;  }
+.g { background-image: url('images/ports/c_05.png')!important;  }
+.gc { background-image: url('images/ports/c_54.png')!important;  }
+.gw { background-image: url('images/ports/c_14.png')!important;  }
+.h { background-image: url('images/ports/c_40.png')!important;  }
+.jl { background-image: url('images/ports/c_49.png')!important;  }
+.jh { background-image: url('images/ports/c_17.png')!important;  }
+.jm { background-image: url('images/ports/c_26.png')!important;  }
+.jhm { background-image: url('images/ports/c_18.png')!important;  }
+.jb { background-image: url('images/ports/c_57.png')!important;  }
+.jr { background-image: url('images/ports/c_36.png')!important;  }
+.jhm { background-image: url('images/ports/c_18.png')!important;  }
+.kl { background-image: url('images/ports/c_50.png')!important;  }
+.kd { background-image: url('images/ports/c_16.png')!important;  }
+.ll { background-image: url('images/ports/c_51.png')!important;  }
+.lt { background-image: url('images/ports/c_41.png')!important;  }
+.la { background-image: url('images/ports/c_66.png')!important;  }
+.ma { background-image: url('images/ports/c_27.png')!important;  }
+.mr { background-image: url('images/ports/c_02.png')!important;  }
+.mer { background-image: url('images/ports/c_37.png')!important;  }
+.mrt { background-image: url('images/ports/c_43.png')!important;  }
+.mt { background-image: url('images/ports/c_42.png')!important;  }
+.mel { background-image: url('images/ports/c_65.png')!important;  }
+.mis { background-image: url('images/ports/c_15.png')!important;  }
+.om { background-image: url('images/ports/c_10.png')!important;  }
+.ot { background-image: url('images/ports/c_44.png')!important;  }
+.pb { background-image: url('images/ports/c_68.png')!important;  }
+.pp { background-image: url('images/ports/c_56.png')!important;  }
+.pyc { background-image: url('images/ports/c_06.png')!important;  }
+.qy { background-image: url('images/ports/c_07.png')!important;  }
+.rb { background-image: url('images/ports/c_38.png')!important;  }
+.rs { background-image: url('images/ports/c_69.png')!important;  }
+.rbs { background-image: url('images/ports/c_34.png')!important;  }
+.rbb { background-image: url('images/ports/c_59.png')!important;  }
+.rnb { background-image: url('images/ports/c_58.png')!important;  }
+.ra { background-image: url('images/ports/c_67.png')!important;  }
+.roo { background-image: url('images/ports/c_39.png')!important;  }
+.st{ background-image: url('images/ports/c_39.png')!important;  }
+.sg { background-image: url('images/ports/c_55.png')!important;  }
+.ss { background-image: url('images/ports/c_35.png')!important;  }
+.sb { background-image: url('images/ports/c_60.png')!important;  }
+.sam { background-image: url('images/ports/c_28.png')!important;  }
+.tg { background-image: url('images/ports/c_01.png')!important;  }
+.tom { background-image: url('images/ports/c_19.png')!important;  }
+.tm { background-image: url('images/ports/c_19.png')!important;  }
+.tb { background-image: url('images/ports/c_61.png')!important;  }
+.tg { background-image: url('images/ports/c_23.png')!important;  }
+.tl { background-image: url('images/ports/c_52.png')!important;  }
+.tyl { background-image: url('images/ports/c_53.png')!important;  }
+.lv { background-image: url('images/ports/c_20.png')!important;  }
+.vt { background-image: url('images/ports/c_12.png')!important;  }
+.wf { background-image: url('images/ports/c_47.png')!important;  }
+.yg { background-image: url('images/ports/c_24.png')!important;  }
+.y { background-image: url('images/ports/c_03.png')!important;  }
+.empty, .shadow { background-image: url('images/ports/c_70.png')!important;  }
+.js { background-image: url('images/ports/c_jon.png')!important; background-position: center -10px!important; }

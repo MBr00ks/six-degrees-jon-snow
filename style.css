@@ -217,7 +217,7 @@ input[type="radio"]+label {
 	border-top: 6px double  rgba(215, 215, 215, .4);
 	border-bottom:6px double  rgba(215, 215, 215, .4);
 	margin: 0px auto;
-	z-index: 15;
+	z-index: 1;
 }
 .charSelect:checked+label+p{
 	opacity: 1;
@@ -225,6 +225,7 @@ input[type="radio"]+label {
 	transition: all ease-in .4s;
 	-webkit-transition: all ease-in .4s;
 	text-align: center;
+	z-index: 15;
 }
  .charSelect+label+p {      
        background: rgba(255,255,255,.3);
@@ -295,9 +296,9 @@ input[type="radio"]+label {
 	opacity: .7;	
 }
 
+
 @media screen and (max-width: 500px) {
 	.copy404 .big {
-		font-family: Georgia, "Times New Roman", Times, serif;
 		font-size: 6em;
 	}
 	.copy404 .mid {
@@ -317,3 +318,20 @@ input[type="radio"]+label {
 		opacity: 1;
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
