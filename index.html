@@ -313,12 +313,10 @@
         window.onload = function() {
             // Speed Check
             var image = 'images/title-portrait.png',
-                 bytes = 554011,
-             startTime = (new Date()).getTime(),
-             endTime,
-             speed,
-             internetSpeed,
-             download = new Image();
+                bytes = 554011,
+                startTime = (new Date()).getTime(),
+                endTime, speed, internetSpeed,
+                download = new Image();
             download.onload = function() {
                 endTime = (new Date()).getTime();
                 speed = (bytes * 8) / ((endTime - startTime) / 1000);
