@@ -312,13 +312,13 @@
         // Defer downloading of additional assets until after 'onload'
         window.onload = function() {
             // Speed Check
-            var image = 'images/title-portrait.png';
-            var bytes = 554011;
-            var startTime = (new Date()).getTime();
-            var endTime;
-            var speed;
-            var internetSpeed;
-            var download = new Image();
+            var image = 'images/title-portrait.png',
+                 bytes = 554011,
+             startTime = (new Date()).getTime(),
+             endTime,
+             speed,
+             internetSpeed,
+             download = new Image();
             download.onload = function() {
                 endTime = (new Date()).getTime();
                 speed = (bytes * 8) / ((endTime - startTime) / 1000);
@@ -341,7 +341,7 @@
                     elementLink.setAttribute('type', 'text/css');
                     elementLink.setAttribute('href', 'pretty.css');
                     document.head.appendChild(elementLink);
-                // Slow connection
+                    // Slow connection
                 } else {
                     //cancel image downloads
                     if (window.stop !== undefined) {
@@ -354,4 +354,5 @@
         }
     </script>
 </body>
+
 </html>
