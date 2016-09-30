@@ -236,4 +236,4 @@ input[type="radio"]+label {
 .yg { background-image: url('images/ports/c_24.png')!important;  }
 .y { background-image: url('images/ports/c_03.png')!important;  }
 .empty, .shadow { background-image: url('images/ports/c_70.png')!important;  }
-.js { background-image: url('images/ports/c_jon.png')!important; background-position: center -10px!important; }
+.js { /*background-image: url('images/ports/c_jon.png')!important;*/ background-position: center -10px!important; }
