@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>6&deg; of Jon Snow</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <!--<link rel="stylesheet" type="text/css" href="pretty.css">-->
+    
 </head>
 
 <body>
     <div id="filter">
         <div class="snow">
-            <header>
+            <header id="header-section">
                 <h1 class="splash">
                     <span class="big">SIX<sup class="deg">&deg;</sup></span>
                     <br><span class="small">OF</span>
@@ -350,7 +350,19 @@
                 }
             }, 3000)
         }
-    </script>
+		window.onscroll = function() {
+			var header = document.getElementById("header-section");
+			var headerBottom = header.offsetTop + header.clientHeight;
+			var winHeight = window.innerHeight;
+			var winScrollTop = window.pageYOffset; 
+			var winBottom = winHeight + winScrollTop;
+			if((winScrollTop+500) <= headerBottom){ 
+			var lineage = document.querySelector("input[type=radio]:checked+label+p");
+			lineage.style["bottom"] = "-365px";
+			}
+		}; 
+   </script>
+   <script src="zenscroll-min.js"></script>
 </body>
 
 </html>
