@@ -151,6 +151,7 @@ a#begin:hover {
 	z-index: 5;
 	min-height: 200vh;
 	padding-top: 5%;
+	padding-bottom: 500px;
 }
 #instructions {
 	display: block;
@@ -198,52 +199,44 @@ input[type="radio"]+label {
 	text-shadow: 2px 2px 45px rgba(12, 65, 90, 1); 
 	padding-top: 20px;
 }
-input[type=radio]+label+p{
+input[type=radio]+label+p {
 	color: #fff;
-	font-size: .8em;
-	opacity: 0;
+	opacity: 1;
 	width: 0px;
-	padding-top: 10px;
 	font-size: 1.2em;
-	transition: all .2s;
-	-webkit-transition: all .2s;
 	position: fixed;
-	bottom: 100px;
+	bottom: -365px;
 	left: 0;
 	right: 0;
-	padding: 20px;
-	background: rgba(255,255,255, .21);
-	text-align: center;
-	border-top: 6px double  rgba(215, 215, 215, .4);
-	border-bottom:6px double  rgba(215, 215, 215, .4);
-	margin: 0px auto;
-	z-index: 15;
-}
+	z-index: 1;     
+  -webkit-animation-duration: 1s;
+   animation-duration: 1s;
+   -webkit-animation-fill-mode: both;
+   animation-fill-mode: both;
+   padding: 0px 1vw 75px;
+   text-align: center;
+   margin: 0;
+   width:98vw !important;
+   max-height:50vh;
+   overflow-y:scroll;        
+   background: #000;
+   padding-top: 50px;
+ 
+ }
+
 input[type=radio]:checked+label+p{
 	opacity: 1;
 	width: 90%;
 	transition: all ease-in .4s;
 	-webkit-transition: all ease-in .4s;
 	text-align: center;
+	z-index: 15;
+	bottom: 0;
 }
- input[type=radio]+label+p {      
-       background: rgba(255,255,255,.3);
-      -webkit-animation-duration: 1s;
-       animation-duration: 1s;
-       -webkit-animation-fill-mode: both;
-       animation-fill-mode: both;
-       padding: 0 1vw 150px;
-       text-align: center;
-       border-top: none;
-       border-bottom: none;
-       margin: 0;
-       width:98vw !important;
-       bottom:0;
-       max-height:50vh;
-       overflow-y:scroll;
-	   display:none;
-     }
  
+input[type=radio]:checked+label+p span {
+	padding-top: 30px;	
+}
     input[type=radio]+label+p em{
        white-space: nowrap;
        color:#80929b;
@@ -279,10 +272,7 @@ input[type=radio]:checked+label+p{
     input[type=radio]:checked+label+p{
        -webkit-animation-name: fadeInBottom;
          animation-name: fadeInBottom;
-		 display:block;
      }
- 
-    
  
 
 		
@@ -297,9 +287,13 @@ input[type=radio]:checked+label+p{
 	opacity: .7;	
 }
 
+@media screen and (max-width: 505px) {
+	
+
+}
+
 @media screen and (max-width: 500px) {
 	.copy404 .big {
-		font-family: Georgia, "Times New Roman", Times, serif;
 		font-size: 6em;
 	}
 	.copy404 .mid {
@@ -319,3 +313,20 @@ input[type=radio]:checked+label+p{
 		opacity: 1;
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
