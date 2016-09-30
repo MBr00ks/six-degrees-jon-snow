@@ -1,11 +1,13 @@
 # six-degrees-jon-snow
 6 Degrees of Jon Snow Website Project
 
+A simple guide that traces GoT characters back to Jon Snow through family, marriage or fielty in 6&deg; of separation or less.
+
 An entry for https://a-k-apart.com/
 
 
 ## the crew
-Brock Lay - Graphics Designer
+Brock Lay - Graphic Designer
 
 Mike Brooks - Web Developer
 
