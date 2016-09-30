@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>6&deg; of Jon Snow</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <!--<link rel="stylesheet" type="text/css" href="pretty.css">-->
+
 </head>
 
 <body>
     <div id="filter">
         <div class="snow">
-            <header>
+            <header id="header-section">
                 <h1 class="splash">
                     <span class="big">SIX<sup class="deg">&deg;</sup></span>
                     <br><span class="small">OF</span>
@@ -56,7 +56,7 @@
                         </li>
                         <li class="bot">
                             <input type="radio" name="charSelect" class="charSelect" id="bot" /><label for="bot">Brien of<br>Tarth</label>
-                            <p><span class="bot">Brien of<br>Tarth</span> <em>Sworn to</em> <span class="ss">Sansa<br>Stark</span> <em>Cousin of</em> <span class="js">Jon<br>Snow</span></p>
+                            <p><span class="bot">Brienne of<br>Tarth</span> <em>Sworn to</em> <span class="ss">Sansa<br>Stark</span> <em>Cousin of</em> <span class="js">Jon<br>Snow</span></p>
                         </li>
                         <li class="b">
                             <input type="radio" name="charSelect" class="charSelect" id="b" /><label for="b">Bronn<br></label>
@@ -124,7 +124,7 @@
                         </li>
                         <li class="jh">
                             <input type="radio" name="charSelect" class="charSelect" id="jh" /><label for="jh">Jaqen<br>H'ghar</label>
-                            <p><span class="jh">Jaqen<br>H'ghar</span> <em>Mentor of</em> <span class="arya">Arya<br>Stark</span> <em>Cousin of</em> <span class="js">Jon<br>Snow</span></p>
+                            <p><span class="jh">Jaqen<br>H'ghar</span> <em>Mentor of</em> <span class="as">Arya<br>Stark</span> <em>Cousin of</em> <span class="js">Jon<br>Snow</span></p>
                         </li>
                         <li class="jm">
                             <input type="radio" name="charSelect" class="charSelect" id="jm" /><label for="jm">Jeor<br>Mormont</label>
@@ -152,11 +152,11 @@
                         </li>
                         <li class="ll">
                             <input type="radio" name="charSelect" class="charSelect" id="ll" /><label for="ll">Lancel<br>Lannister</label>
-                            <p><span class="ll">Lancel<br>Lannister</span> <em>Son of</em> <span class="keven">Keven<br>Lannister</span> <em>Uncle of</em> <span class="tl">Tyrion<br>Lannister</span> <em>Married to</em> <span class="ss">Sansa<br>Stark</span>                                <em>Cousin of</em> <span class="js">Jon<br>Snow</span></p>
+                            <p><span class="ll">Lancel<br>Lannister</span> <em>Nephew of</em> <span class="tl">Tyrion<br>Lannister</span> <em>Married to</em> <span class="ss">Sansa<br>Stark</span> <em>Cousin of</em> <span class="js">Jon<br>Snow</span></p>
                         </li>
                         <li class="lt">
                             <input type="radio" name="charSelect" class="charSelect" id="lt" /><label for="lt">Loras<br>Tyrell</label>
-                            <p><span class="lt">Loras<br>Tyrell</span> <em>Brother to</em> <span class="mrt">Margaery<br>Tyrell</span> <em>Married to</em> <span class="tmb">Tommen<br>Baratheon</span> <em>Nephew of</em> <span class="tl">Tyrion<br>Lannister</span>                                <em>Married to</em> <span class="ss">Sansa<br>Stark</span> <em>Cousin of</em> <span class="js">Jon<br>Snow</span></p>
+                            <p><span class="lt">Loras<br>Tyrell</span> <em>Brother to</em> <span class="mrt">Margaery<br>Tyrell</span> <em>Married to</em> <span class="tb">Tommen<br>Baratheon</span> <em>Nephew of</em> <span class="tl">Tyrion<br>Lannister</span>                                <em>Married to</em> <span class="ss">Sansa<br>Stark</span> <em>Cousin of</em> <span class="js">Jon<br>Snow</span></p>
                         </li>
                         <li class="la">
                             <input type="radio" name="charSelect" class="charSelect" id="la" /><label for="la">Lysa<br>Arryn</label>
@@ -164,7 +164,7 @@
                         </li>
                         <li class="mt">
                             <input type="radio" name="charSelect" class="charSelect" id="mt" /><label for="mt">Mace<br>Tyrell</label>
-                            <p><span class="mt">Mace<br>Tyrell</span> <em>Mother of</em> <span class="mrt">Margaery<br>Tyrell</span> <em>Married to</em> <span class="tmb">Tommen<br>Baratheon</span> <em>Nephew of</em> <span class="tl">Tyrion<br>Lannister</span>                                <em>Married to</em> <span class="ss">Sansa<br>Stark</span> <em>Cousin of</em> <span class="js">Jon<br>Snow</span></p>
+                            <p><span class="mt">Mace<br>Tyrell</span> <em>Mother of</em> <span class="mrt">Margaery<br>Tyrell</span> <em>Married to</em> <span class="tb">Tommen<br>Baratheon</span> <em>Nephew of</em> <span class="tl">Tyrion<br>Lannister</span>                                <em>Married to</em> <span class="ss">Sansa<br>Stark</span> <em>Cousin of</em> <span class="js">Jon<br>Snow</span></p>
                         </li>
                         <li class="ma">
                             <input type="radio" name="charSelect" class="charSelect" id="ma" /><label for="ma">Maester<br>Aemon</label>
@@ -200,11 +200,11 @@
                         </li>
                         <li class="pb">
                             <input type="radio" name="charSelect" class="charSelect" id="baelish" /><label for="baelish">Petyr<br>Baelish</label>
-                            <p><span class="pb">Petyr<br>Baelish</span> <em>Married to(formerly)</em> <span class="lysa">Lysa<br>Arryn</span> <em>Sister of</em> <span class="cs">Catelyn<br>Stark</span> <em>Aunt of</em> <span class="js">Jon<br>Snow</span></p>
+                            <p><span class="pb">Petyr<br>Baelish</span> <em>Married to(formerly)</em> <span class="la">Lysa<br>Arryn</span> <em>Sister of</em> <span class="cs">Catelyn<br>Stark</span> <em>Aunt of</em> <span class="js">Jon<br>Snow</span></p>
                         </li>
                         <li class="pp">
                             <input type="radio" name="charSelect" class="charSelect" id="pp" /><label for="pp">Podrick<br>Payne</label>
-                            <p><span class="pp">Podrick<br>Payne</span> <em>Squire to</em> <span class="briene">Briene of<br>Tarth</span> <em>Sworn to</em> <span class="ss">Sansa<br>Stark</span> <em>Cousin of</em> <span class="js">Jon<br>Snow</span></p>
+                            <p><span class="pp">Podrick<br>Payne</span> <em>Squire to</em> <span class="bot">Briene of<br>Tarth</span> <em>Sworn to</em> <span class="ss">Sansa<br>Stark</span> <em>Cousin of</em> <span class="js">Jon<br>Snow</span></p>
                         </li>
                         <li class="pyc">
                             <input type="radio" name="charSelect" class="charSelect" id="pyc" /><label for="pyc">Maester<br>Pycelle</label>
@@ -212,7 +212,7 @@
                         </li>
                         <li class="qy">
                             <input type="radio" name="charSelect" class="charSelect" id="qy" /><label for="qy">Qyburn</label>
-                            <p><span class="qy">Qyburn<br>&nbsp;</span> <em>Sworn to</em> <span class="cersie">Cersei<br>Lannister</span> <em>Sister of</em> <span class="tl">Tyrion<br>Lannister</span> <em>Formerly married to</em> <span class="ss">Sansa<br>Stark</span>                                <em>Cousin of</em> <span class="js">Jon<br>Snow</span> </p>
+                            <p><span class="qy">Qyburn<br>&nbsp;</span> <em>Sworn to</em> <span class="cl">Cersei<br>Lannister</span> <em>Sister of</em> <span class="tl">Tyrion<br>Lannister</span> <em>Formerly married to</em> <span class="ss">Sansa<br>Stark</span>                                <em>Cousin of</em> <span class="js">Jon<br>Snow</span> </p>
                         </li>
                         <li class="rb">
                             <input type="radio" name="charSelect" class="charSelect" id="rb" /><label for="rb">Ramsay<br>Bolton</label>
@@ -220,7 +220,7 @@
                         </li>
                         <li class="rnb">
                             <input type="radio" name="charSelect" class="charSelect" id="rnb" /><label for="rnb">Renly<br>Baratheon</label>
-                            <p><span class="rnb">Renly<br>Baratheon</span> <em>Married to(formerly)</em> <span class="mrt">Margaery<br>Tyrell</span> <em>Married to</em> <span class="tmb">Tommen<br>Baratheon</span> <em>Nephew of</em> <span class="tl">Tyrion<br>Lannister</span>                                <em>Married to</em> <span class="ss">Sansa<br>Stark</span> <em>Cousin of</em> <span class="js">Jon<br>Snow</span></p>
+                            <p><span class="rnb">Renly<br>Baratheon</span> <em>Married to(formerly)</em> <span class="mrt">Margaery<br>Tyrell</span> <em>Married to</em> <span class="tb">Tommen<br>Baratheon</span> <em>Nephew of</em> <span class="tl">Tyrion<br>Lannister</span>                                <em>Married to</em> <span class="ss">Sansa<br>Stark</span> <em>Cousin of</em> <span class="js">Jon<br>Snow</span></p>
                         </li>
                         <li class="rs">
                             <input type="radio" name="charSelect" class="charSelect" id="rs" /><label for="rs">Rickon<br>Stark</label>
@@ -281,7 +281,7 @@
                         </li>
                         <li class="tyl">
                             <input type="radio" name="charSelect" class="charSelect" id="tyl" /><label for="tyl">Tywin<br>Lannister</label>
-                            <p><span class="tyl">Tywin<br>Lannister</span> <em>Married to</em> <span class="empty">Lady<br>Joanna</span> <em>Mother of</em> <span class="tl">Tyrion<br>Lannister</span> <em>Married to</em> <span class="ss">Sansa<br>Stark</span>                                <em>Cousin of</em> <span class="js">Jon<br>Snow</span></p>
+                            <p><span class="tyl">Tywin<br>Lannister</span> <em>Father of</em> <span class="tl">Tyrion<br>Lannister</span> <em>Married to</em> <span class="ss">Sansa<br>Stark</span>                                <em>Cousin of</em> <span class="js">Jon<br>Snow</span></p>
                         </li>
                         <li class="lv">
                             <input type="radio" name="charSelect" class="charSelect" id="lv" /><label for="lv">Lord<br>Varys</label>
@@ -312,8 +312,8 @@
         // Defer downloading of additional assets until after 'onload'
         window.onload = function() {
             // Speed Check
-            var image = 'images/title-portrait.png',
-                bytes = 554011,
+            var image = 'images/ports/c_jon.png',
+                bytes = 69378,
                 startTime = (new Date()).getTime(),
                 endTime, speed, internetSpeed,
                 download = new Image();
@@ -330,8 +330,11 @@
                 // Good connection
                 if (window.internetSpeed >= 4) {
                     // Load title-portrait.png from speed check
-                    var imgDefer = document.getElementsByClassName('splash');
-                    imgDefer[0].style.backgroundImage = 'url(' + download.src + ')';
+                    var imgDefer = document.getElementsByClassName('js');
+                    for (var i = 0; i < imgDefer.length; i++) {
+                        imgDefer[i].style.backgroundImage = 'url(' + download.src + ')';
+                    }
+                    // imgDefer[0].style.backgroundImage = 'url(' + download.src + ')';
 
                     // Load pretty.css
                     var elementLink = document.createElement('link');
@@ -350,7 +353,19 @@
                 }
             }, 3000)
         }
+        window.onscroll = function() {
+            var header = document.getElementById("header-section");
+            var headerBottom = header.offsetTop + header.clientHeight;
+            var winHeight = window.innerHeight;
+            var winScrollTop = window.pageYOffset;
+            var winBottom = winHeight + winScrollTop;
+            if ((winScrollTop + 500) <= headerBottom) {
+                var lineage = document.querySelector("input[type=radio]:checked+label+p");
+                lineage.style["bottom"] = "-365px";
+            }
+        };
     </script>
+    <script src="zenscroll-min.js"></script>
 </body>
 
 </html>
