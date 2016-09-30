@@ -322,7 +322,7 @@
                 speed = (bytes * 8) / ((endTime - startTime) / 1000);
                 internetSpeed = (speed / 1024) / 1024;
                 // Sets a internetSpeed property to window
-                return window.internetSpeed = Math.round(internetSpeed);
+                return window.internetSpeed = Math.ceil(internetSpeed);
             };
             var cacheBuster = '?z=' + startTime;
             download.src = (image + cacheBuster);
@@ -351,7 +351,7 @@
                         document.execCommand("Stop", false);
                     }
                 }
-            }, 3000)
+            }, 500)
         }
         window.onscroll = function() {
             var header = document.getElementById("header-section");
